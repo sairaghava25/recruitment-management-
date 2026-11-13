@@ -1,0 +1,2 @@
+attempt_id,requisition_id,candidate_id,original_application_id,attempted_at,issue_type
+DUP-ATT-000001,REQ-2026-000001,CAND-000111,APP-REQ-2026-000001-CAND-000111,2026-01-13T15:43:00+00:00,duplicate_application

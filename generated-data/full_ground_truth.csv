@@ -1,0 +1,6 @@
+anomaly_id,entity_type,entity_id,issue_type,expected_detection_result,expected_severity
+ANOM-001,Interview,INT-2026-000001,unavailable_interviewer,detected,high
+ANOM-002,DuplicateApplicationAttempt,DUP-ATT-000001,duplicate_application,detected,medium
+ANOM-003,Interview,INT-2026-000600,missing_feedback_advancement,detected,high
+ANOM-004,Offer,OFF-2026-000001,offer_outside_salary_band,detected,high
+ANOM-005,JobRequisition,REQ-2026-000001,closed_requisition_active_applications,detected,high

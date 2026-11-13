@@ -1,0 +1,601 @@
+event_id,offer_id,from_status,to_status,actor,reason,occurred_at
+OFFEV-000001,OFF-2026-000001,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-16T12:00:00+00:00
+OFFEV-000002,OFF-2026-000001,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-16T13:00:00+00:00
+OFFEV-000003,OFF-2026-000001,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-16T14:00:00+00:00
+OFFEV-000004,OFF-2026-000001,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-23T14:00:00+00:00
+OFFEV-000005,OFF-2026-000002,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-16T16:00:00+00:00
+OFFEV-000006,OFF-2026-000002,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-16T17:00:00+00:00
+OFFEV-000007,OFF-2026-000002,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-16T18:00:00+00:00
+OFFEV-000008,OFF-2026-000002,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-23T18:00:00+00:00
+OFFEV-000009,OFF-2026-000003,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-17T12:00:00+00:00
+OFFEV-000010,OFF-2026-000003,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-17T13:00:00+00:00
+OFFEV-000011,OFF-2026-000003,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-17T14:00:00+00:00
+OFFEV-000012,OFF-2026-000003,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-24T14:00:00+00:00
+OFFEV-000013,OFF-2026-000004,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-17T16:00:00+00:00
+OFFEV-000014,OFF-2026-000004,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-17T17:00:00+00:00
+OFFEV-000015,OFF-2026-000004,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-17T18:00:00+00:00
+OFFEV-000016,OFF-2026-000004,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-24T18:00:00+00:00
+OFFEV-000017,OFF-2026-000005,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-18T12:00:00+00:00
+OFFEV-000018,OFF-2026-000005,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-18T13:00:00+00:00
+OFFEV-000019,OFF-2026-000005,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-18T14:00:00+00:00
+OFFEV-000020,OFF-2026-000005,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-25T14:00:00+00:00
+OFFEV-000021,OFF-2026-000006,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-18T16:00:00+00:00
+OFFEV-000022,OFF-2026-000006,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-18T17:00:00+00:00
+OFFEV-000023,OFF-2026-000006,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-18T18:00:00+00:00
+OFFEV-000024,OFF-2026-000006,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-25T18:00:00+00:00
+OFFEV-000025,OFF-2026-000007,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-19T12:00:00+00:00
+OFFEV-000026,OFF-2026-000007,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-19T13:00:00+00:00
+OFFEV-000027,OFF-2026-000007,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-19T14:00:00+00:00
+OFFEV-000028,OFF-2026-000007,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-26T14:00:00+00:00
+OFFEV-000029,OFF-2026-000008,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-19T16:00:00+00:00
+OFFEV-000030,OFF-2026-000008,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-19T17:00:00+00:00
+OFFEV-000031,OFF-2026-000008,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-19T18:00:00+00:00
+OFFEV-000032,OFF-2026-000008,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-26T18:00:00+00:00
+OFFEV-000033,OFF-2026-000009,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-20T12:00:00+00:00
+OFFEV-000034,OFF-2026-000009,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-20T13:00:00+00:00
+OFFEV-000035,OFF-2026-000009,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-20T14:00:00+00:00
+OFFEV-000036,OFF-2026-000009,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-27T14:00:00+00:00
+OFFEV-000037,OFF-2026-000010,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-20T16:00:00+00:00
+OFFEV-000038,OFF-2026-000010,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-20T17:00:00+00:00
+OFFEV-000039,OFF-2026-000010,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-20T18:00:00+00:00
+OFFEV-000040,OFF-2026-000010,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-27T18:00:00+00:00
+OFFEV-000041,OFF-2026-000011,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-21T12:00:00+00:00
+OFFEV-000042,OFF-2026-000011,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-21T13:00:00+00:00
+OFFEV-000043,OFF-2026-000011,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-21T14:00:00+00:00
+OFFEV-000044,OFF-2026-000011,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-28T14:00:00+00:00
+OFFEV-000045,OFF-2026-000012,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-21T16:00:00+00:00
+OFFEV-000046,OFF-2026-000012,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-21T17:00:00+00:00
+OFFEV-000047,OFF-2026-000012,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-21T18:00:00+00:00
+OFFEV-000048,OFF-2026-000012,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-28T18:00:00+00:00
+OFFEV-000049,OFF-2026-000013,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-22T12:00:00+00:00
+OFFEV-000050,OFF-2026-000013,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-22T13:00:00+00:00
+OFFEV-000051,OFF-2026-000013,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-22T14:00:00+00:00
+OFFEV-000052,OFF-2026-000013,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-29T14:00:00+00:00
+OFFEV-000053,OFF-2026-000014,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-22T16:00:00+00:00
+OFFEV-000054,OFF-2026-000014,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-22T17:00:00+00:00
+OFFEV-000055,OFF-2026-000014,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-22T18:00:00+00:00
+OFFEV-000056,OFF-2026-000014,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-29T18:00:00+00:00
+OFFEV-000057,OFF-2026-000015,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-23T12:00:00+00:00
+OFFEV-000058,OFF-2026-000015,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-23T13:00:00+00:00
+OFFEV-000059,OFF-2026-000015,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-23T14:00:00+00:00
+OFFEV-000060,OFF-2026-000015,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-30T14:00:00+00:00
+OFFEV-000061,OFF-2026-000016,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-23T16:00:00+00:00
+OFFEV-000062,OFF-2026-000016,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-23T17:00:00+00:00
+OFFEV-000063,OFF-2026-000016,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-23T18:00:00+00:00
+OFFEV-000064,OFF-2026-000016,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-30T18:00:00+00:00
+OFFEV-000065,OFF-2026-000017,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-24T12:00:00+00:00
+OFFEV-000066,OFF-2026-000017,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-24T13:00:00+00:00
+OFFEV-000067,OFF-2026-000017,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-24T14:00:00+00:00
+OFFEV-000068,OFF-2026-000017,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-31T14:00:00+00:00
+OFFEV-000069,OFF-2026-000018,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-24T16:00:00+00:00
+OFFEV-000070,OFF-2026-000018,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-24T17:00:00+00:00
+OFFEV-000071,OFF-2026-000018,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-24T18:00:00+00:00
+OFFEV-000072,OFF-2026-000018,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-01-31T18:00:00+00:00
+OFFEV-000073,OFF-2026-000019,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-25T12:00:00+00:00
+OFFEV-000074,OFF-2026-000019,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-25T13:00:00+00:00
+OFFEV-000075,OFF-2026-000019,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-25T14:00:00+00:00
+OFFEV-000076,OFF-2026-000019,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-01T14:00:00+00:00
+OFFEV-000077,OFF-2026-000020,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-25T16:00:00+00:00
+OFFEV-000078,OFF-2026-000020,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-25T17:00:00+00:00
+OFFEV-000079,OFF-2026-000020,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-25T18:00:00+00:00
+OFFEV-000080,OFF-2026-000020,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-01T18:00:00+00:00
+OFFEV-000081,OFF-2026-000021,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-26T12:00:00+00:00
+OFFEV-000082,OFF-2026-000021,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-26T13:00:00+00:00
+OFFEV-000083,OFF-2026-000021,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-26T14:00:00+00:00
+OFFEV-000084,OFF-2026-000021,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-02T14:00:00+00:00
+OFFEV-000085,OFF-2026-000022,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-26T16:00:00+00:00
+OFFEV-000086,OFF-2026-000022,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-26T17:00:00+00:00
+OFFEV-000087,OFF-2026-000022,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-26T18:00:00+00:00
+OFFEV-000088,OFF-2026-000022,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-02T18:00:00+00:00
+OFFEV-000089,OFF-2026-000023,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-27T12:00:00+00:00
+OFFEV-000090,OFF-2026-000023,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-27T13:00:00+00:00
+OFFEV-000091,OFF-2026-000023,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-27T14:00:00+00:00
+OFFEV-000092,OFF-2026-000023,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-03T14:00:00+00:00
+OFFEV-000093,OFF-2026-000024,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-27T16:00:00+00:00
+OFFEV-000094,OFF-2026-000024,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-27T17:00:00+00:00
+OFFEV-000095,OFF-2026-000024,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-27T18:00:00+00:00
+OFFEV-000096,OFF-2026-000024,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-03T18:00:00+00:00
+OFFEV-000097,OFF-2026-000025,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-28T12:00:00+00:00
+OFFEV-000098,OFF-2026-000025,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-28T13:00:00+00:00
+OFFEV-000099,OFF-2026-000025,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-28T14:00:00+00:00
+OFFEV-000100,OFF-2026-000025,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-04T14:00:00+00:00
+OFFEV-000101,OFF-2026-000026,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-28T16:00:00+00:00
+OFFEV-000102,OFF-2026-000026,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-28T17:00:00+00:00
+OFFEV-000103,OFF-2026-000026,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-28T18:00:00+00:00
+OFFEV-000104,OFF-2026-000026,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-04T18:00:00+00:00
+OFFEV-000105,OFF-2026-000027,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-29T12:00:00+00:00
+OFFEV-000106,OFF-2026-000027,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-29T13:00:00+00:00
+OFFEV-000107,OFF-2026-000027,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-29T14:00:00+00:00
+OFFEV-000108,OFF-2026-000027,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-05T14:00:00+00:00
+OFFEV-000109,OFF-2026-000028,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-29T16:00:00+00:00
+OFFEV-000110,OFF-2026-000028,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-29T17:00:00+00:00
+OFFEV-000111,OFF-2026-000028,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-29T18:00:00+00:00
+OFFEV-000112,OFF-2026-000028,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-05T18:00:00+00:00
+OFFEV-000113,OFF-2026-000029,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-30T12:00:00+00:00
+OFFEV-000114,OFF-2026-000029,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-30T13:00:00+00:00
+OFFEV-000115,OFF-2026-000029,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-30T14:00:00+00:00
+OFFEV-000116,OFF-2026-000029,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-06T14:00:00+00:00
+OFFEV-000117,OFF-2026-000030,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-30T16:00:00+00:00
+OFFEV-000118,OFF-2026-000030,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-30T17:00:00+00:00
+OFFEV-000119,OFF-2026-000030,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-30T18:00:00+00:00
+OFFEV-000120,OFF-2026-000030,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-06T18:00:00+00:00
+OFFEV-000121,OFF-2026-000031,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-31T12:00:00+00:00
+OFFEV-000122,OFF-2026-000031,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-31T13:00:00+00:00
+OFFEV-000123,OFF-2026-000031,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-31T14:00:00+00:00
+OFFEV-000124,OFF-2026-000031,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-07T14:00:00+00:00
+OFFEV-000125,OFF-2026-000032,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-01-31T16:00:00+00:00
+OFFEV-000126,OFF-2026-000032,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-01-31T17:00:00+00:00
+OFFEV-000127,OFF-2026-000032,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-01-31T18:00:00+00:00
+OFFEV-000128,OFF-2026-000032,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-07T18:00:00+00:00
+OFFEV-000129,OFF-2026-000033,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-01T12:00:00+00:00
+OFFEV-000130,OFF-2026-000033,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-01T13:00:00+00:00
+OFFEV-000131,OFF-2026-000033,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-01T14:00:00+00:00
+OFFEV-000132,OFF-2026-000033,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-08T14:00:00+00:00
+OFFEV-000133,OFF-2026-000034,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-01T16:00:00+00:00
+OFFEV-000134,OFF-2026-000034,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-01T17:00:00+00:00
+OFFEV-000135,OFF-2026-000034,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-01T18:00:00+00:00
+OFFEV-000136,OFF-2026-000034,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-08T18:00:00+00:00
+OFFEV-000137,OFF-2026-000035,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-02T12:00:00+00:00
+OFFEV-000138,OFF-2026-000035,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-02T13:00:00+00:00
+OFFEV-000139,OFF-2026-000035,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-02T14:00:00+00:00
+OFFEV-000140,OFF-2026-000035,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-09T14:00:00+00:00
+OFFEV-000141,OFF-2026-000036,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-02T16:00:00+00:00
+OFFEV-000142,OFF-2026-000036,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-02T17:00:00+00:00
+OFFEV-000143,OFF-2026-000036,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-02T18:00:00+00:00
+OFFEV-000144,OFF-2026-000036,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-09T18:00:00+00:00
+OFFEV-000145,OFF-2026-000037,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-03T12:00:00+00:00
+OFFEV-000146,OFF-2026-000037,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-03T13:00:00+00:00
+OFFEV-000147,OFF-2026-000037,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-03T14:00:00+00:00
+OFFEV-000148,OFF-2026-000037,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-10T14:00:00+00:00
+OFFEV-000149,OFF-2026-000038,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-03T16:00:00+00:00
+OFFEV-000150,OFF-2026-000038,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-03T17:00:00+00:00
+OFFEV-000151,OFF-2026-000038,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-03T18:00:00+00:00
+OFFEV-000152,OFF-2026-000038,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-10T18:00:00+00:00
+OFFEV-000153,OFF-2026-000039,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-04T12:00:00+00:00
+OFFEV-000154,OFF-2026-000039,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-04T13:00:00+00:00
+OFFEV-000155,OFF-2026-000039,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-04T14:00:00+00:00
+OFFEV-000156,OFF-2026-000039,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-11T14:00:00+00:00
+OFFEV-000157,OFF-2026-000040,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-04T16:00:00+00:00
+OFFEV-000158,OFF-2026-000040,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-04T17:00:00+00:00
+OFFEV-000159,OFF-2026-000040,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-04T18:00:00+00:00
+OFFEV-000160,OFF-2026-000040,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-11T18:00:00+00:00
+OFFEV-000161,OFF-2026-000041,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-05T12:00:00+00:00
+OFFEV-000162,OFF-2026-000041,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-05T13:00:00+00:00
+OFFEV-000163,OFF-2026-000041,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-05T14:00:00+00:00
+OFFEV-000164,OFF-2026-000041,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-12T14:00:00+00:00
+OFFEV-000165,OFF-2026-000042,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-05T16:00:00+00:00
+OFFEV-000166,OFF-2026-000042,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-05T17:00:00+00:00
+OFFEV-000167,OFF-2026-000042,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-05T18:00:00+00:00
+OFFEV-000168,OFF-2026-000042,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-12T18:00:00+00:00
+OFFEV-000169,OFF-2026-000043,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-06T12:00:00+00:00
+OFFEV-000170,OFF-2026-000043,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-06T13:00:00+00:00
+OFFEV-000171,OFF-2026-000043,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-06T14:00:00+00:00
+OFFEV-000172,OFF-2026-000043,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-13T14:00:00+00:00
+OFFEV-000173,OFF-2026-000044,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-06T16:00:00+00:00
+OFFEV-000174,OFF-2026-000044,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-06T17:00:00+00:00
+OFFEV-000175,OFF-2026-000044,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-06T18:00:00+00:00
+OFFEV-000176,OFF-2026-000044,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-13T18:00:00+00:00
+OFFEV-000177,OFF-2026-000045,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-07T12:00:00+00:00
+OFFEV-000178,OFF-2026-000045,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-07T13:00:00+00:00
+OFFEV-000179,OFF-2026-000045,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-07T14:00:00+00:00
+OFFEV-000180,OFF-2026-000045,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-14T14:00:00+00:00
+OFFEV-000181,OFF-2026-000046,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-07T16:00:00+00:00
+OFFEV-000182,OFF-2026-000046,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-07T17:00:00+00:00
+OFFEV-000183,OFF-2026-000046,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-07T18:00:00+00:00
+OFFEV-000184,OFF-2026-000046,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-14T18:00:00+00:00
+OFFEV-000185,OFF-2026-000047,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-08T12:00:00+00:00
+OFFEV-000186,OFF-2026-000047,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-08T13:00:00+00:00
+OFFEV-000187,OFF-2026-000047,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-08T14:00:00+00:00
+OFFEV-000188,OFF-2026-000047,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-15T14:00:00+00:00
+OFFEV-000189,OFF-2026-000048,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-08T16:00:00+00:00
+OFFEV-000190,OFF-2026-000048,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-08T17:00:00+00:00
+OFFEV-000191,OFF-2026-000048,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-08T18:00:00+00:00
+OFFEV-000192,OFF-2026-000048,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-15T18:00:00+00:00
+OFFEV-000193,OFF-2026-000049,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-09T12:00:00+00:00
+OFFEV-000194,OFF-2026-000049,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-09T13:00:00+00:00
+OFFEV-000195,OFF-2026-000049,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-09T14:00:00+00:00
+OFFEV-000196,OFF-2026-000049,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-16T14:00:00+00:00
+OFFEV-000197,OFF-2026-000050,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-09T16:00:00+00:00
+OFFEV-000198,OFF-2026-000050,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-09T17:00:00+00:00
+OFFEV-000199,OFF-2026-000050,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-09T18:00:00+00:00
+OFFEV-000200,OFF-2026-000050,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-16T18:00:00+00:00
+OFFEV-000201,OFF-2026-000051,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-10T12:00:00+00:00
+OFFEV-000202,OFF-2026-000051,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-10T13:00:00+00:00
+OFFEV-000203,OFF-2026-000051,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-10T14:00:00+00:00
+OFFEV-000204,OFF-2026-000051,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-17T14:00:00+00:00
+OFFEV-000205,OFF-2026-000052,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-10T16:00:00+00:00
+OFFEV-000206,OFF-2026-000052,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-10T17:00:00+00:00
+OFFEV-000207,OFF-2026-000052,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-10T18:00:00+00:00
+OFFEV-000208,OFF-2026-000052,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-17T18:00:00+00:00
+OFFEV-000209,OFF-2026-000053,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-11T12:00:00+00:00
+OFFEV-000210,OFF-2026-000053,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-11T13:00:00+00:00
+OFFEV-000211,OFF-2026-000053,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-11T14:00:00+00:00
+OFFEV-000212,OFF-2026-000053,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-18T14:00:00+00:00
+OFFEV-000213,OFF-2026-000054,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-11T16:00:00+00:00
+OFFEV-000214,OFF-2026-000054,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-11T17:00:00+00:00
+OFFEV-000215,OFF-2026-000054,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-11T18:00:00+00:00
+OFFEV-000216,OFF-2026-000054,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-18T18:00:00+00:00
+OFFEV-000217,OFF-2026-000055,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-12T12:00:00+00:00
+OFFEV-000218,OFF-2026-000055,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-12T13:00:00+00:00
+OFFEV-000219,OFF-2026-000055,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-12T14:00:00+00:00
+OFFEV-000220,OFF-2026-000055,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-19T14:00:00+00:00
+OFFEV-000221,OFF-2026-000056,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-12T16:00:00+00:00
+OFFEV-000222,OFF-2026-000056,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-12T17:00:00+00:00
+OFFEV-000223,OFF-2026-000056,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-12T18:00:00+00:00
+OFFEV-000224,OFF-2026-000056,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-19T18:00:00+00:00
+OFFEV-000225,OFF-2026-000057,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-13T12:00:00+00:00
+OFFEV-000226,OFF-2026-000057,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-13T13:00:00+00:00
+OFFEV-000227,OFF-2026-000057,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-13T14:00:00+00:00
+OFFEV-000228,OFF-2026-000057,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-20T14:00:00+00:00
+OFFEV-000229,OFF-2026-000058,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-13T16:00:00+00:00
+OFFEV-000230,OFF-2026-000058,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-13T17:00:00+00:00
+OFFEV-000231,OFF-2026-000058,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-13T18:00:00+00:00
+OFFEV-000232,OFF-2026-000058,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-20T18:00:00+00:00
+OFFEV-000233,OFF-2026-000059,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-14T12:00:00+00:00
+OFFEV-000234,OFF-2026-000059,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-14T13:00:00+00:00
+OFFEV-000235,OFF-2026-000059,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-14T14:00:00+00:00
+OFFEV-000236,OFF-2026-000059,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-21T14:00:00+00:00
+OFFEV-000237,OFF-2026-000060,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-14T16:00:00+00:00
+OFFEV-000238,OFF-2026-000060,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-14T17:00:00+00:00
+OFFEV-000239,OFF-2026-000060,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-14T18:00:00+00:00
+OFFEV-000240,OFF-2026-000060,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-21T18:00:00+00:00
+OFFEV-000241,OFF-2026-000061,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-15T12:00:00+00:00
+OFFEV-000242,OFF-2026-000061,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-15T13:00:00+00:00
+OFFEV-000243,OFF-2026-000061,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-15T14:00:00+00:00
+OFFEV-000244,OFF-2026-000061,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-22T14:00:00+00:00
+OFFEV-000245,OFF-2026-000062,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-15T16:00:00+00:00
+OFFEV-000246,OFF-2026-000062,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-15T17:00:00+00:00
+OFFEV-000247,OFF-2026-000062,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-15T18:00:00+00:00
+OFFEV-000248,OFF-2026-000062,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-22T18:00:00+00:00
+OFFEV-000249,OFF-2026-000063,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-16T12:00:00+00:00
+OFFEV-000250,OFF-2026-000063,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-16T13:00:00+00:00
+OFFEV-000251,OFF-2026-000063,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-16T14:00:00+00:00
+OFFEV-000252,OFF-2026-000063,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-23T14:00:00+00:00
+OFFEV-000253,OFF-2026-000064,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-16T16:00:00+00:00
+OFFEV-000254,OFF-2026-000064,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-16T17:00:00+00:00
+OFFEV-000255,OFF-2026-000064,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-16T18:00:00+00:00
+OFFEV-000256,OFF-2026-000064,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-23T18:00:00+00:00
+OFFEV-000257,OFF-2026-000065,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-17T12:00:00+00:00
+OFFEV-000258,OFF-2026-000065,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-17T13:00:00+00:00
+OFFEV-000259,OFF-2026-000065,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-17T14:00:00+00:00
+OFFEV-000260,OFF-2026-000065,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-24T14:00:00+00:00
+OFFEV-000261,OFF-2026-000066,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-17T16:00:00+00:00
+OFFEV-000262,OFF-2026-000066,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-17T17:00:00+00:00
+OFFEV-000263,OFF-2026-000066,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-17T18:00:00+00:00
+OFFEV-000264,OFF-2026-000066,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-24T18:00:00+00:00
+OFFEV-000265,OFF-2026-000067,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-18T12:00:00+00:00
+OFFEV-000266,OFF-2026-000067,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-18T13:00:00+00:00
+OFFEV-000267,OFF-2026-000067,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-18T14:00:00+00:00
+OFFEV-000268,OFF-2026-000067,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-25T14:00:00+00:00
+OFFEV-000269,OFF-2026-000068,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-18T16:00:00+00:00
+OFFEV-000270,OFF-2026-000068,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-18T17:00:00+00:00
+OFFEV-000271,OFF-2026-000068,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-18T18:00:00+00:00
+OFFEV-000272,OFF-2026-000068,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-25T18:00:00+00:00
+OFFEV-000273,OFF-2026-000069,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-19T12:00:00+00:00
+OFFEV-000274,OFF-2026-000069,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-19T13:00:00+00:00
+OFFEV-000275,OFF-2026-000069,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-19T14:00:00+00:00
+OFFEV-000276,OFF-2026-000069,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-26T14:00:00+00:00
+OFFEV-000277,OFF-2026-000070,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-19T16:00:00+00:00
+OFFEV-000278,OFF-2026-000070,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-19T17:00:00+00:00
+OFFEV-000279,OFF-2026-000070,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-19T18:00:00+00:00
+OFFEV-000280,OFF-2026-000070,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-26T18:00:00+00:00
+OFFEV-000281,OFF-2026-000071,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-20T12:00:00+00:00
+OFFEV-000282,OFF-2026-000071,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-20T13:00:00+00:00
+OFFEV-000283,OFF-2026-000071,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-20T14:00:00+00:00
+OFFEV-000284,OFF-2026-000071,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-27T14:00:00+00:00
+OFFEV-000285,OFF-2026-000072,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-20T16:00:00+00:00
+OFFEV-000286,OFF-2026-000072,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-20T17:00:00+00:00
+OFFEV-000287,OFF-2026-000072,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-20T18:00:00+00:00
+OFFEV-000288,OFF-2026-000072,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-27T18:00:00+00:00
+OFFEV-000289,OFF-2026-000073,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-21T12:00:00+00:00
+OFFEV-000290,OFF-2026-000073,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-21T13:00:00+00:00
+OFFEV-000291,OFF-2026-000073,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-21T14:00:00+00:00
+OFFEV-000292,OFF-2026-000073,issued,accepted,synthetic.candidate@example.test,Accepted: salary reached at least 90% of the approved salary range and all panelists submitted strong_yes.,2026-02-28T14:00:00+00:00
+OFFEV-000293,OFF-2026-000074,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-21T16:00:00+00:00
+OFFEV-000294,OFF-2026-000074,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-21T17:00:00+00:00
+OFFEV-000295,OFF-2026-000074,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-21T18:00:00+00:00
+OFFEV-000296,OFF-2026-000074,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-02-28T18:00:00+00:00
+OFFEV-000297,OFF-2026-000075,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-22T12:00:00+00:00
+OFFEV-000298,OFF-2026-000075,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-22T13:00:00+00:00
+OFFEV-000299,OFF-2026-000075,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-22T14:00:00+00:00
+OFFEV-000300,OFF-2026-000075,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-01T14:00:00+00:00
+OFFEV-000301,OFF-2026-000076,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-22T16:00:00+00:00
+OFFEV-000302,OFF-2026-000076,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-22T17:00:00+00:00
+OFFEV-000303,OFF-2026-000076,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-22T18:00:00+00:00
+OFFEV-000304,OFF-2026-000076,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-01T18:00:00+00:00
+OFFEV-000305,OFF-2026-000077,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-23T12:00:00+00:00
+OFFEV-000306,OFF-2026-000077,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-23T13:00:00+00:00
+OFFEV-000307,OFF-2026-000077,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-23T14:00:00+00:00
+OFFEV-000308,OFF-2026-000077,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-02T14:00:00+00:00
+OFFEV-000309,OFF-2026-000078,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-23T16:00:00+00:00
+OFFEV-000310,OFF-2026-000078,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-23T17:00:00+00:00
+OFFEV-000311,OFF-2026-000078,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-23T18:00:00+00:00
+OFFEV-000312,OFF-2026-000078,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-02T18:00:00+00:00
+OFFEV-000313,OFF-2026-000079,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-24T12:00:00+00:00
+OFFEV-000314,OFF-2026-000079,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-24T13:00:00+00:00
+OFFEV-000315,OFF-2026-000079,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-24T14:00:00+00:00
+OFFEV-000316,OFF-2026-000079,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-03T14:00:00+00:00
+OFFEV-000317,OFF-2026-000080,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-24T16:00:00+00:00
+OFFEV-000318,OFF-2026-000080,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-24T17:00:00+00:00
+OFFEV-000319,OFF-2026-000080,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-24T18:00:00+00:00
+OFFEV-000320,OFF-2026-000080,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-03T18:00:00+00:00
+OFFEV-000321,OFF-2026-000081,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-25T12:00:00+00:00
+OFFEV-000322,OFF-2026-000081,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-25T13:00:00+00:00
+OFFEV-000323,OFF-2026-000081,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-25T14:00:00+00:00
+OFFEV-000324,OFF-2026-000081,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-04T14:00:00+00:00
+OFFEV-000325,OFF-2026-000082,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-25T16:00:00+00:00
+OFFEV-000326,OFF-2026-000082,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-25T17:00:00+00:00
+OFFEV-000327,OFF-2026-000082,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-25T18:00:00+00:00
+OFFEV-000328,OFF-2026-000082,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-04T18:00:00+00:00
+OFFEV-000329,OFF-2026-000083,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-26T12:00:00+00:00
+OFFEV-000330,OFF-2026-000083,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-26T13:00:00+00:00
+OFFEV-000331,OFF-2026-000083,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-26T14:00:00+00:00
+OFFEV-000332,OFF-2026-000083,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-05T14:00:00+00:00
+OFFEV-000333,OFF-2026-000084,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-26T16:00:00+00:00
+OFFEV-000334,OFF-2026-000084,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-26T17:00:00+00:00
+OFFEV-000335,OFF-2026-000084,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-26T18:00:00+00:00
+OFFEV-000336,OFF-2026-000084,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-05T18:00:00+00:00
+OFFEV-000337,OFF-2026-000085,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-27T12:00:00+00:00
+OFFEV-000338,OFF-2026-000085,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-27T13:00:00+00:00
+OFFEV-000339,OFF-2026-000085,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-27T14:00:00+00:00
+OFFEV-000340,OFF-2026-000085,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-06T14:00:00+00:00
+OFFEV-000341,OFF-2026-000086,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-27T16:00:00+00:00
+OFFEV-000342,OFF-2026-000086,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-27T17:00:00+00:00
+OFFEV-000343,OFF-2026-000086,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-27T18:00:00+00:00
+OFFEV-000344,OFF-2026-000086,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-06T18:00:00+00:00
+OFFEV-000345,OFF-2026-000087,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-28T12:00:00+00:00
+OFFEV-000346,OFF-2026-000087,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-28T13:00:00+00:00
+OFFEV-000347,OFF-2026-000087,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-28T14:00:00+00:00
+OFFEV-000348,OFF-2026-000087,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-07T14:00:00+00:00
+OFFEV-000349,OFF-2026-000088,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-02-28T16:00:00+00:00
+OFFEV-000350,OFF-2026-000088,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-02-28T17:00:00+00:00
+OFFEV-000351,OFF-2026-000088,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-02-28T18:00:00+00:00
+OFFEV-000352,OFF-2026-000088,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-07T18:00:00+00:00
+OFFEV-000353,OFF-2026-000089,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-01T12:00:00+00:00
+OFFEV-000354,OFF-2026-000089,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-01T13:00:00+00:00
+OFFEV-000355,OFF-2026-000089,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-01T14:00:00+00:00
+OFFEV-000356,OFF-2026-000089,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-08T14:00:00+00:00
+OFFEV-000357,OFF-2026-000090,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-01T16:00:00+00:00
+OFFEV-000358,OFF-2026-000090,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-01T17:00:00+00:00
+OFFEV-000359,OFF-2026-000090,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-01T18:00:00+00:00
+OFFEV-000360,OFF-2026-000090,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-08T18:00:00+00:00
+OFFEV-000361,OFF-2026-000091,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-02T12:00:00+00:00
+OFFEV-000362,OFF-2026-000091,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-02T13:00:00+00:00
+OFFEV-000363,OFF-2026-000091,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-02T14:00:00+00:00
+OFFEV-000364,OFF-2026-000091,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-09T14:00:00+00:00
+OFFEV-000365,OFF-2026-000092,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-02T16:00:00+00:00
+OFFEV-000366,OFF-2026-000092,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-02T17:00:00+00:00
+OFFEV-000367,OFF-2026-000092,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-02T18:00:00+00:00
+OFFEV-000368,OFF-2026-000092,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-09T18:00:00+00:00
+OFFEV-000369,OFF-2026-000093,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-03T12:00:00+00:00
+OFFEV-000370,OFF-2026-000093,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-03T13:00:00+00:00
+OFFEV-000371,OFF-2026-000093,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-03T14:00:00+00:00
+OFFEV-000372,OFF-2026-000093,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-10T14:00:00+00:00
+OFFEV-000373,OFF-2026-000094,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-03T16:00:00+00:00
+OFFEV-000374,OFF-2026-000094,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-03T17:00:00+00:00
+OFFEV-000375,OFF-2026-000094,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-03T18:00:00+00:00
+OFFEV-000376,OFF-2026-000094,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-10T18:00:00+00:00
+OFFEV-000377,OFF-2026-000095,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-04T12:00:00+00:00
+OFFEV-000378,OFF-2026-000095,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-04T13:00:00+00:00
+OFFEV-000379,OFF-2026-000095,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-04T14:00:00+00:00
+OFFEV-000380,OFF-2026-000095,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-11T14:00:00+00:00
+OFFEV-000381,OFF-2026-000096,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-04T16:00:00+00:00
+OFFEV-000382,OFF-2026-000096,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-04T17:00:00+00:00
+OFFEV-000383,OFF-2026-000096,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-04T18:00:00+00:00
+OFFEV-000384,OFF-2026-000096,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-11T18:00:00+00:00
+OFFEV-000385,OFF-2026-000097,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-05T12:00:00+00:00
+OFFEV-000386,OFF-2026-000097,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-05T13:00:00+00:00
+OFFEV-000387,OFF-2026-000097,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-05T14:00:00+00:00
+OFFEV-000388,OFF-2026-000097,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-12T14:00:00+00:00
+OFFEV-000389,OFF-2026-000098,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-05T16:00:00+00:00
+OFFEV-000390,OFF-2026-000098,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-05T17:00:00+00:00
+OFFEV-000391,OFF-2026-000098,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-05T18:00:00+00:00
+OFFEV-000392,OFF-2026-000098,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-12T18:00:00+00:00
+OFFEV-000393,OFF-2026-000099,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-06T12:00:00+00:00
+OFFEV-000394,OFF-2026-000099,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-06T13:00:00+00:00
+OFFEV-000395,OFF-2026-000099,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-06T14:00:00+00:00
+OFFEV-000396,OFF-2026-000099,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-13T14:00:00+00:00
+OFFEV-000397,OFF-2026-000100,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-06T16:00:00+00:00
+OFFEV-000398,OFF-2026-000100,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-06T17:00:00+00:00
+OFFEV-000399,OFF-2026-000100,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-06T18:00:00+00:00
+OFFEV-000400,OFF-2026-000100,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-13T18:00:00+00:00
+OFFEV-000401,OFF-2026-000101,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-07T12:00:00+00:00
+OFFEV-000402,OFF-2026-000101,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-07T13:00:00+00:00
+OFFEV-000403,OFF-2026-000101,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-07T14:00:00+00:00
+OFFEV-000404,OFF-2026-000101,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-14T14:00:00+00:00
+OFFEV-000405,OFF-2026-000102,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-07T16:00:00+00:00
+OFFEV-000406,OFF-2026-000102,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-07T17:00:00+00:00
+OFFEV-000407,OFF-2026-000102,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-07T18:00:00+00:00
+OFFEV-000408,OFF-2026-000102,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-14T18:00:00+00:00
+OFFEV-000409,OFF-2026-000103,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-08T12:00:00+00:00
+OFFEV-000410,OFF-2026-000103,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-08T13:00:00+00:00
+OFFEV-000411,OFF-2026-000103,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-08T14:00:00+00:00
+OFFEV-000412,OFF-2026-000103,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-15T14:00:00+00:00
+OFFEV-000413,OFF-2026-000104,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-08T16:00:00+00:00
+OFFEV-000414,OFF-2026-000104,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-08T17:00:00+00:00
+OFFEV-000415,OFF-2026-000104,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-08T18:00:00+00:00
+OFFEV-000416,OFF-2026-000104,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-15T18:00:00+00:00
+OFFEV-000417,OFF-2026-000105,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-09T12:00:00+00:00
+OFFEV-000418,OFF-2026-000105,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-09T13:00:00+00:00
+OFFEV-000419,OFF-2026-000105,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-09T14:00:00+00:00
+OFFEV-000420,OFF-2026-000105,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-16T14:00:00+00:00
+OFFEV-000421,OFF-2026-000106,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-09T16:00:00+00:00
+OFFEV-000422,OFF-2026-000106,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-09T17:00:00+00:00
+OFFEV-000423,OFF-2026-000106,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-09T18:00:00+00:00
+OFFEV-000424,OFF-2026-000106,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-16T18:00:00+00:00
+OFFEV-000425,OFF-2026-000107,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-10T12:00:00+00:00
+OFFEV-000426,OFF-2026-000107,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-10T13:00:00+00:00
+OFFEV-000427,OFF-2026-000107,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-10T14:00:00+00:00
+OFFEV-000428,OFF-2026-000107,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-17T14:00:00+00:00
+OFFEV-000429,OFF-2026-000108,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-10T16:00:00+00:00
+OFFEV-000430,OFF-2026-000108,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-10T17:00:00+00:00
+OFFEV-000431,OFF-2026-000108,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-10T18:00:00+00:00
+OFFEV-000432,OFF-2026-000108,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-17T18:00:00+00:00
+OFFEV-000433,OFF-2026-000109,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-11T12:00:00+00:00
+OFFEV-000434,OFF-2026-000109,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-11T13:00:00+00:00
+OFFEV-000435,OFF-2026-000109,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-11T14:00:00+00:00
+OFFEV-000436,OFF-2026-000109,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-18T14:00:00+00:00
+OFFEV-000437,OFF-2026-000110,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-11T16:00:00+00:00
+OFFEV-000438,OFF-2026-000110,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-11T17:00:00+00:00
+OFFEV-000439,OFF-2026-000110,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-11T18:00:00+00:00
+OFFEV-000440,OFF-2026-000110,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-18T18:00:00+00:00
+OFFEV-000441,OFF-2026-000111,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-12T12:00:00+00:00
+OFFEV-000442,OFF-2026-000111,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-12T13:00:00+00:00
+OFFEV-000443,OFF-2026-000111,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-12T14:00:00+00:00
+OFFEV-000444,OFF-2026-000111,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-19T14:00:00+00:00
+OFFEV-000445,OFF-2026-000112,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-12T16:00:00+00:00
+OFFEV-000446,OFF-2026-000112,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-12T17:00:00+00:00
+OFFEV-000447,OFF-2026-000112,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-12T18:00:00+00:00
+OFFEV-000448,OFF-2026-000112,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-19T18:00:00+00:00
+OFFEV-000449,OFF-2026-000113,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-13T12:00:00+00:00
+OFFEV-000450,OFF-2026-000113,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-13T13:00:00+00:00
+OFFEV-000451,OFF-2026-000113,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-13T14:00:00+00:00
+OFFEV-000452,OFF-2026-000113,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-20T14:00:00+00:00
+OFFEV-000453,OFF-2026-000114,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-13T16:00:00+00:00
+OFFEV-000454,OFF-2026-000114,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-13T17:00:00+00:00
+OFFEV-000455,OFF-2026-000114,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-13T18:00:00+00:00
+OFFEV-000456,OFF-2026-000114,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-20T18:00:00+00:00
+OFFEV-000457,OFF-2026-000115,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-14T12:00:00+00:00
+OFFEV-000458,OFF-2026-000115,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-14T13:00:00+00:00
+OFFEV-000459,OFF-2026-000115,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-14T14:00:00+00:00
+OFFEV-000460,OFF-2026-000115,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-21T14:00:00+00:00
+OFFEV-000461,OFF-2026-000116,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-14T16:00:00+00:00
+OFFEV-000462,OFF-2026-000116,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-14T17:00:00+00:00
+OFFEV-000463,OFF-2026-000116,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-14T18:00:00+00:00
+OFFEV-000464,OFF-2026-000116,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-21T18:00:00+00:00
+OFFEV-000465,OFF-2026-000117,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-15T12:00:00+00:00
+OFFEV-000466,OFF-2026-000117,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-15T13:00:00+00:00
+OFFEV-000467,OFF-2026-000117,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-15T14:00:00+00:00
+OFFEV-000468,OFF-2026-000117,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-22T14:00:00+00:00
+OFFEV-000469,OFF-2026-000118,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-15T16:00:00+00:00
+OFFEV-000470,OFF-2026-000118,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-15T17:00:00+00:00
+OFFEV-000471,OFF-2026-000118,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-15T18:00:00+00:00
+OFFEV-000472,OFF-2026-000118,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-22T18:00:00+00:00
+OFFEV-000473,OFF-2026-000119,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-16T12:00:00+00:00
+OFFEV-000474,OFF-2026-000119,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-16T13:00:00+00:00
+OFFEV-000475,OFF-2026-000119,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-16T14:00:00+00:00
+OFFEV-000476,OFF-2026-000119,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-23T14:00:00+00:00
+OFFEV-000477,OFF-2026-000120,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-16T16:00:00+00:00
+OFFEV-000478,OFF-2026-000120,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-16T17:00:00+00:00
+OFFEV-000479,OFF-2026-000120,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-16T18:00:00+00:00
+OFFEV-000480,OFF-2026-000120,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-23T18:00:00+00:00
+OFFEV-000481,OFF-2026-000121,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-17T12:00:00+00:00
+OFFEV-000482,OFF-2026-000121,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-17T13:00:00+00:00
+OFFEV-000483,OFF-2026-000121,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-17T14:00:00+00:00
+OFFEV-000484,OFF-2026-000121,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-24T14:00:00+00:00
+OFFEV-000485,OFF-2026-000122,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-17T16:00:00+00:00
+OFFEV-000486,OFF-2026-000122,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-17T17:00:00+00:00
+OFFEV-000487,OFF-2026-000122,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-17T18:00:00+00:00
+OFFEV-000488,OFF-2026-000122,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-24T18:00:00+00:00
+OFFEV-000489,OFF-2026-000123,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-18T12:00:00+00:00
+OFFEV-000490,OFF-2026-000123,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-18T13:00:00+00:00
+OFFEV-000491,OFF-2026-000123,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-18T14:00:00+00:00
+OFFEV-000492,OFF-2026-000123,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-25T14:00:00+00:00
+OFFEV-000493,OFF-2026-000124,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-18T16:00:00+00:00
+OFFEV-000494,OFF-2026-000124,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-18T17:00:00+00:00
+OFFEV-000495,OFF-2026-000124,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-18T18:00:00+00:00
+OFFEV-000496,OFF-2026-000124,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-25T18:00:00+00:00
+OFFEV-000497,OFF-2026-000125,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-19T12:00:00+00:00
+OFFEV-000498,OFF-2026-000125,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-19T13:00:00+00:00
+OFFEV-000499,OFF-2026-000125,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-19T14:00:00+00:00
+OFFEV-000500,OFF-2026-000125,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-26T14:00:00+00:00
+OFFEV-000501,OFF-2026-000126,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-19T16:00:00+00:00
+OFFEV-000502,OFF-2026-000126,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-19T17:00:00+00:00
+OFFEV-000503,OFF-2026-000126,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-19T18:00:00+00:00
+OFFEV-000504,OFF-2026-000126,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-26T18:00:00+00:00
+OFFEV-000505,OFF-2026-000127,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-20T12:00:00+00:00
+OFFEV-000506,OFF-2026-000127,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-20T13:00:00+00:00
+OFFEV-000507,OFF-2026-000127,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-20T14:00:00+00:00
+OFFEV-000508,OFF-2026-000127,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-27T14:00:00+00:00
+OFFEV-000509,OFF-2026-000128,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-20T16:00:00+00:00
+OFFEV-000510,OFF-2026-000128,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-20T17:00:00+00:00
+OFFEV-000511,OFF-2026-000128,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-20T18:00:00+00:00
+OFFEV-000512,OFF-2026-000128,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-27T18:00:00+00:00
+OFFEV-000513,OFF-2026-000129,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-21T12:00:00+00:00
+OFFEV-000514,OFF-2026-000129,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-21T13:00:00+00:00
+OFFEV-000515,OFF-2026-000129,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-21T14:00:00+00:00
+OFFEV-000516,OFF-2026-000129,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-28T14:00:00+00:00
+OFFEV-000517,OFF-2026-000130,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-21T16:00:00+00:00
+OFFEV-000518,OFF-2026-000130,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-21T17:00:00+00:00
+OFFEV-000519,OFF-2026-000130,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-21T18:00:00+00:00
+OFFEV-000520,OFF-2026-000130,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-28T18:00:00+00:00
+OFFEV-000521,OFF-2026-000131,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-22T12:00:00+00:00
+OFFEV-000522,OFF-2026-000131,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-22T13:00:00+00:00
+OFFEV-000523,OFF-2026-000131,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-22T14:00:00+00:00
+OFFEV-000524,OFF-2026-000131,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-29T14:00:00+00:00
+OFFEV-000525,OFF-2026-000132,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-22T16:00:00+00:00
+OFFEV-000526,OFF-2026-000132,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-22T17:00:00+00:00
+OFFEV-000527,OFF-2026-000132,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-22T18:00:00+00:00
+OFFEV-000528,OFF-2026-000132,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-29T18:00:00+00:00
+OFFEV-000529,OFF-2026-000133,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-23T12:00:00+00:00
+OFFEV-000530,OFF-2026-000133,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-23T13:00:00+00:00
+OFFEV-000531,OFF-2026-000133,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-23T14:00:00+00:00
+OFFEV-000532,OFF-2026-000133,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-30T14:00:00+00:00
+OFFEV-000533,OFF-2026-000134,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-23T16:00:00+00:00
+OFFEV-000534,OFF-2026-000134,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-23T17:00:00+00:00
+OFFEV-000535,OFF-2026-000134,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-23T18:00:00+00:00
+OFFEV-000536,OFF-2026-000134,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-30T18:00:00+00:00
+OFFEV-000537,OFF-2026-000135,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-24T12:00:00+00:00
+OFFEV-000538,OFF-2026-000135,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-24T13:00:00+00:00
+OFFEV-000539,OFF-2026-000135,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-24T14:00:00+00:00
+OFFEV-000540,OFF-2026-000135,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-31T14:00:00+00:00
+OFFEV-000541,OFF-2026-000136,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-24T16:00:00+00:00
+OFFEV-000542,OFF-2026-000136,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-24T17:00:00+00:00
+OFFEV-000543,OFF-2026-000136,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-24T18:00:00+00:00
+OFFEV-000544,OFF-2026-000136,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-03-31T18:00:00+00:00
+OFFEV-000545,OFF-2026-000137,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-25T12:00:00+00:00
+OFFEV-000546,OFF-2026-000137,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-25T13:00:00+00:00
+OFFEV-000547,OFF-2026-000137,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-25T14:00:00+00:00
+OFFEV-000548,OFF-2026-000137,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-01T14:00:00+00:00
+OFFEV-000549,OFF-2026-000138,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-25T16:00:00+00:00
+OFFEV-000550,OFF-2026-000138,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-25T17:00:00+00:00
+OFFEV-000551,OFF-2026-000138,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-25T18:00:00+00:00
+OFFEV-000552,OFF-2026-000138,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-01T18:00:00+00:00
+OFFEV-000553,OFF-2026-000139,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-26T12:00:00+00:00
+OFFEV-000554,OFF-2026-000139,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-26T13:00:00+00:00
+OFFEV-000555,OFF-2026-000139,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-26T14:00:00+00:00
+OFFEV-000556,OFF-2026-000139,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-02T14:00:00+00:00
+OFFEV-000557,OFF-2026-000140,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-26T16:00:00+00:00
+OFFEV-000558,OFF-2026-000140,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-26T17:00:00+00:00
+OFFEV-000559,OFF-2026-000140,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-26T18:00:00+00:00
+OFFEV-000560,OFF-2026-000140,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-02T18:00:00+00:00
+OFFEV-000561,OFF-2026-000141,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-27T12:00:00+00:00
+OFFEV-000562,OFF-2026-000141,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-27T13:00:00+00:00
+OFFEV-000563,OFF-2026-000141,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-27T14:00:00+00:00
+OFFEV-000564,OFF-2026-000141,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-03T14:00:00+00:00
+OFFEV-000565,OFF-2026-000142,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-27T16:00:00+00:00
+OFFEV-000566,OFF-2026-000142,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-27T17:00:00+00:00
+OFFEV-000567,OFF-2026-000142,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-27T18:00:00+00:00
+OFFEV-000568,OFF-2026-000142,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-03T18:00:00+00:00
+OFFEV-000569,OFF-2026-000143,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-28T12:00:00+00:00
+OFFEV-000570,OFF-2026-000143,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-28T13:00:00+00:00
+OFFEV-000571,OFF-2026-000143,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-28T14:00:00+00:00
+OFFEV-000572,OFF-2026-000143,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-04T14:00:00+00:00
+OFFEV-000573,OFF-2026-000144,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-28T16:00:00+00:00
+OFFEV-000574,OFF-2026-000144,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-28T17:00:00+00:00
+OFFEV-000575,OFF-2026-000144,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-28T18:00:00+00:00
+OFFEV-000576,OFF-2026-000144,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-04T18:00:00+00:00
+OFFEV-000577,OFF-2026-000145,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-29T12:00:00+00:00
+OFFEV-000578,OFF-2026-000145,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-29T13:00:00+00:00
+OFFEV-000579,OFF-2026-000145,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-29T14:00:00+00:00
+OFFEV-000580,OFF-2026-000145,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-05T14:00:00+00:00
+OFFEV-000581,OFF-2026-000146,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-29T16:00:00+00:00
+OFFEV-000582,OFF-2026-000146,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-29T17:00:00+00:00
+OFFEV-000583,OFF-2026-000146,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-29T18:00:00+00:00
+OFFEV-000584,OFF-2026-000146,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-05T18:00:00+00:00
+OFFEV-000585,OFF-2026-000147,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-30T12:00:00+00:00
+OFFEV-000586,OFF-2026-000147,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-30T13:00:00+00:00
+OFFEV-000587,OFF-2026-000147,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-30T14:00:00+00:00
+OFFEV-000588,OFF-2026-000147,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-06T14:00:00+00:00
+OFFEV-000589,OFF-2026-000148,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-30T16:00:00+00:00
+OFFEV-000590,OFF-2026-000148,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-30T17:00:00+00:00
+OFFEV-000591,OFF-2026-000148,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-30T18:00:00+00:00
+OFFEV-000592,OFF-2026-000148,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-06T18:00:00+00:00
+OFFEV-000593,OFF-2026-000149,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-31T12:00:00+00:00
+OFFEV-000594,OFF-2026-000149,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-31T13:00:00+00:00
+OFFEV-000595,OFF-2026-000149,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-31T14:00:00+00:00
+OFFEV-000596,OFF-2026-000149,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-07T14:00:00+00:00
+OFFEV-000597,OFF-2026-000150,,pending_approval,synthetic.recruiting@example.test,Offer submitted for approval after positive interviews,2026-03-31T16:00:00+00:00
+OFFEV-000598,OFF-2026-000150,pending_approval,approved,synthetic.finance@example.test,Salary is within approved requisition band,2026-03-31T17:00:00+00:00
+OFFEV-000599,OFF-2026-000150,approved,issued,synthetic.recruiting@example.test,Approved offer issued,2026-03-31T18:00:00+00:00
+OFFEV-000600,OFF-2026-000150,issued,rejected,synthetic.candidate@example.test,Rejected: the salary-range threshold or unanimous strong interview recommendation was not met.,2026-04-07T18:00:00+00:00

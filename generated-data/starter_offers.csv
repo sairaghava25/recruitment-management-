@@ -1,0 +1,9 @@
+offer_id,application_id,salary,currency,status,created_by,approved_by,approved_at,issued_at,responded_at
+OFF-2026-000001,APP-REQ-2026-000006-CAND-000054,151000.00,USD,accepted,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-16T13:00:00+00:00,2026-01-16T14:00:00+00:00,2026-01-23T14:00:00+00:00
+OFF-2026-000002,APP-REQ-2026-000002-CAND-000057,127500.00,USD,accepted,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-16T17:00:00+00:00,2026-01-16T18:00:00+00:00,2026-01-23T18:00:00+00:00
+OFF-2026-000003,APP-REQ-2026-000008-CAND-000094,115000.00,USD,accepted,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-17T13:00:00+00:00,2026-01-17T14:00:00+00:00,2026-01-24T14:00:00+00:00
+OFF-2026-000004,APP-REQ-2026-000008-CAND-000099,115000.00,USD,accepted,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-17T17:00:00+00:00,2026-01-17T18:00:00+00:00,2026-01-24T18:00:00+00:00
+OFF-2026-000005,APP-REQ-2026-000010-CAND-000049,122500.00,USD,rejected,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-18T13:00:00+00:00,2026-01-18T14:00:00+00:00,2026-01-25T14:00:00+00:00
+OFF-2026-000006,APP-REQ-2026-000002-CAND-000053,120000.00,USD,rejected,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-18T17:00:00+00:00,2026-01-18T18:00:00+00:00,2026-01-25T18:00:00+00:00
+OFF-2026-000007,APP-REQ-2026-000004-CAND-000041,130000.00,USD,rejected,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-19T13:00:00+00:00,2026-01-19T14:00:00+00:00,2026-01-26T14:00:00+00:00
+OFF-2026-000008,APP-REQ-2026-000001-CAND-000060,112500.00,USD,rejected,synthetic.recruiting@example.test,synthetic.finance@example.test,2026-01-19T17:00:00+00:00,2026-01-19T18:00:00+00:00,2026-01-26T18:00:00+00:00

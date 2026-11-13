@@ -1,0 +1,25 @@
+skill_id,name,category,is_active
+SKILL-0001,Python,Programming,true
+SKILL-0002,SQL,Data,true
+SKILL-0003,PostgreSQL,Data,true
+SKILL-0004,Data Modeling,Data,true
+SKILL-0005,Machine Learning,Data,true
+SKILL-0006,Cloud Architecture,Infrastructure,true
+SKILL-0007,Kubernetes,Infrastructure,true
+SKILL-0008,Distributed Systems,Infrastructure,true
+SKILL-0009,Java,Programming,true
+SKILL-0010,TypeScript,Programming,true
+SKILL-0011,API Design,Software Engineering,true
+SKILL-0012,Testing,Software Engineering,true
+SKILL-0013,Product Analytics,Product,true
+SKILL-0014,Product Strategy,Product,true
+SKILL-0015,UX Research,Design,true
+SKILL-0016,Interaction Design,Design,true
+SKILL-0017,Threat Modeling,Security,true
+SKILL-0018,Application Security,Security,true
+SKILL-0019,Incident Response,Security,true
+SKILL-0020,Project Planning,Operations,true
+SKILL-0021,Process Improvement,Operations,true
+SKILL-0022,Technical Writing,Communication,true
+SKILL-0023,Financial Modeling,Finance,true
+SKILL-0024,Customer Enablement,Customer Success,true

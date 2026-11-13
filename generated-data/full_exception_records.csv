@@ -1,0 +1,6 @@
+exception_id,issue_type,entity_type,entity_id,expected_decision,observed_details,validation_result,detected_at
+EXC-000001,unavailable_interviewer,Interview,INT-2026-000001,flag,"{""interviewer_id"":""ITR-000001"",""scheduled_interval_is_unavailable"":true}",not_evaluated,2026-10-28T09:01:00+00:00
+EXC-000002,duplicate_application,DuplicateApplicationAttempt,DUP-ATT-000001,flag,"{""original_application_id"":""APP-REQ-2026-000001-CAND-000111""}",not_evaluated,2026-10-28T09:02:00+00:00
+EXC-000003,missing_feedback_advancement,Interview,INT-2026-000600,flag,"{""application_id"":""APP-REQ-2026-000066-CAND-001310"",""application_stage"":""interview"",""missing_interviewer_id"":""ITR-000001""}",not_evaluated,2026-10-28T09:03:00+00:00
+EXC-000004,offer_outside_salary_band,Offer,OFF-2026-000001,flag,"{""approved_salary_max"":""135000.00"",""offer_salary"":""136000.00""}",not_evaluated,2026-10-28T09:04:00+00:00
+EXC-000005,closed_requisition_active_applications,JobRequisition,REQ-2026-000001,flag,"{""active_application_count"":7}",not_evaluated,2026-10-28T09:05:00+00:00

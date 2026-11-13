@@ -1,0 +1,9 @@
+department_id,name,description,is_active,created_at,updated_at
+DEPT-0001,Engineering,Software delivery and platform engineering.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0002,Data,"Analytics, data engineering, and applied data science.",true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0003,Product,Product planning and product operations.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0004,Design,Product and service design.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0005,Security,Information security and application assurance.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0006,Operations,Business and technical operations.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0007,Customer Success,Customer enablement and support.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00
+DEPT-0008,Finance,Financial planning and business finance.,true,2026-01-01T09:00:00+00:00,2026-01-01T09:00:00+00:00

@@ -1,0 +1,501 @@
+screening_rule_id,requisition_id,skill_id,rule_type,criterion_name,weight,minimum_proficiency,minimum_value,effective_from,effective_to,is_active
+RULE-000001,REQ-2026-000001,SKILL-0022,required_skill,Required: Technical Writing,30.00,2,,2026-01-05T09:01:00+00:00,,true
+RULE-000002,REQ-2026-000001,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T09:01:00+00:00,,true
+RULE-000003,REQ-2026-000001,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:01:00+00:00,,true
+RULE-000004,REQ-2026-000001,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:01:00+00:00,,true
+RULE-000005,REQ-2026-000001,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:01:00+00:00,,true
+RULE-000006,REQ-2026-000002,SKILL-0010,required_skill,Required: TypeScript,30.00,2,,2026-01-05T09:02:00+00:00,,true
+RULE-000007,REQ-2026-000002,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T09:02:00+00:00,,true
+RULE-000008,REQ-2026-000002,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:02:00+00:00,,true
+RULE-000009,REQ-2026-000002,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:02:00+00:00,,true
+RULE-000010,REQ-2026-000002,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:02:00+00:00,,true
+RULE-000011,REQ-2026-000003,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T09:03:00+00:00,,true
+RULE-000012,REQ-2026-000003,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T09:03:00+00:00,,true
+RULE-000013,REQ-2026-000003,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T09:03:00+00:00,,true
+RULE-000014,REQ-2026-000003,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:03:00+00:00,,true
+RULE-000015,REQ-2026-000003,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:03:00+00:00,,true
+RULE-000016,REQ-2026-000004,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T09:04:00+00:00,,true
+RULE-000017,REQ-2026-000004,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:04:00+00:00,,true
+RULE-000018,REQ-2026-000004,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:04:00+00:00,,true
+RULE-000019,REQ-2026-000004,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:04:00+00:00,,true
+RULE-000020,REQ-2026-000004,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:04:00+00:00,,true
+RULE-000021,REQ-2026-000005,SKILL-0007,required_skill,Required: Kubernetes,30.00,2,,2026-01-05T09:05:00+00:00,,true
+RULE-000022,REQ-2026-000005,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T09:05:00+00:00,,true
+RULE-000023,REQ-2026-000005,SKILL-0021,weighted_skill,Weighted: Process Improvement,25.00,2,,2026-01-05T09:05:00+00:00,,true
+RULE-000024,REQ-2026-000005,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:05:00+00:00,,true
+RULE-000025,REQ-2026-000005,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:05:00+00:00,,true
+RULE-000026,REQ-2026-000006,SKILL-0023,required_skill,Required: Financial Modeling,30.00,2,,2026-01-05T09:06:00+00:00,,true
+RULE-000027,REQ-2026-000006,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:06:00+00:00,,true
+RULE-000028,REQ-2026-000006,SKILL-0020,weighted_skill,Weighted: Project Planning,25.00,2,,2026-01-05T09:06:00+00:00,,true
+RULE-000029,REQ-2026-000006,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:06:00+00:00,,true
+RULE-000030,REQ-2026-000006,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:06:00+00:00,,true
+RULE-000031,REQ-2026-000007,SKILL-0004,required_skill,Required: Data Modeling,30.00,2,,2026-01-05T09:07:00+00:00,,true
+RULE-000032,REQ-2026-000007,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:07:00+00:00,,true
+RULE-000033,REQ-2026-000007,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T09:07:00+00:00,,true
+RULE-000034,REQ-2026-000007,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:07:00+00:00,,true
+RULE-000035,REQ-2026-000007,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:07:00+00:00,,true
+RULE-000036,REQ-2026-000008,SKILL-0005,required_skill,Required: Machine Learning,30.00,2,,2026-01-05T09:08:00+00:00,,true
+RULE-000037,REQ-2026-000008,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:08:00+00:00,,true
+RULE-000038,REQ-2026-000008,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:08:00+00:00,,true
+RULE-000039,REQ-2026-000008,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:08:00+00:00,,true
+RULE-000040,REQ-2026-000008,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:08:00+00:00,,true
+RULE-000041,REQ-2026-000009,SKILL-0007,required_skill,Required: Kubernetes,30.00,2,,2026-01-05T09:09:00+00:00,,true
+RULE-000042,REQ-2026-000009,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:09:00+00:00,,true
+RULE-000043,REQ-2026-000009,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:09:00+00:00,,true
+RULE-000044,REQ-2026-000009,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:09:00+00:00,,true
+RULE-000045,REQ-2026-000009,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:09:00+00:00,,true
+RULE-000046,REQ-2026-000010,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T09:10:00+00:00,,true
+RULE-000047,REQ-2026-000010,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:10:00+00:00,,true
+RULE-000048,REQ-2026-000010,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:10:00+00:00,,true
+RULE-000049,REQ-2026-000010,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:10:00+00:00,,true
+RULE-000050,REQ-2026-000010,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:10:00+00:00,,true
+RULE-000051,REQ-2026-000011,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T09:11:00+00:00,,true
+RULE-000052,REQ-2026-000011,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:11:00+00:00,,true
+RULE-000053,REQ-2026-000011,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:11:00+00:00,,true
+RULE-000054,REQ-2026-000011,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:11:00+00:00,,true
+RULE-000055,REQ-2026-000011,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:11:00+00:00,,true
+RULE-000056,REQ-2026-000012,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T09:12:00+00:00,,true
+RULE-000057,REQ-2026-000012,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T09:12:00+00:00,,true
+RULE-000058,REQ-2026-000012,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:12:00+00:00,,true
+RULE-000059,REQ-2026-000012,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:12:00+00:00,,true
+RULE-000060,REQ-2026-000012,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:12:00+00:00,,true
+RULE-000061,REQ-2026-000013,SKILL-0002,required_skill,Required: SQL,30.00,2,,2026-01-05T09:13:00+00:00,,true
+RULE-000062,REQ-2026-000013,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:13:00+00:00,,true
+RULE-000063,REQ-2026-000013,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:13:00+00:00,,true
+RULE-000064,REQ-2026-000013,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:13:00+00:00,,true
+RULE-000065,REQ-2026-000013,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:13:00+00:00,,true
+RULE-000066,REQ-2026-000014,SKILL-0003,required_skill,Required: PostgreSQL,30.00,2,,2026-01-05T09:14:00+00:00,,true
+RULE-000067,REQ-2026-000014,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:14:00+00:00,,true
+RULE-000068,REQ-2026-000014,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:14:00+00:00,,true
+RULE-000069,REQ-2026-000014,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:14:00+00:00,,true
+RULE-000070,REQ-2026-000014,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:14:00+00:00,,true
+RULE-000071,REQ-2026-000015,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T09:15:00+00:00,,true
+RULE-000072,REQ-2026-000015,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:15:00+00:00,,true
+RULE-000073,REQ-2026-000015,SKILL-0011,weighted_skill,Weighted: API Design,25.00,2,,2026-01-05T09:15:00+00:00,,true
+RULE-000074,REQ-2026-000015,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:15:00+00:00,,true
+RULE-000075,REQ-2026-000015,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:15:00+00:00,,true
+RULE-000076,REQ-2026-000016,SKILL-0004,required_skill,Required: Data Modeling,30.00,2,,2026-01-05T09:16:00+00:00,,true
+RULE-000077,REQ-2026-000016,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T09:16:00+00:00,,true
+RULE-000078,REQ-2026-000016,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T09:16:00+00:00,,true
+RULE-000079,REQ-2026-000016,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:16:00+00:00,,true
+RULE-000080,REQ-2026-000016,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:16:00+00:00,,true
+RULE-000081,REQ-2026-000017,SKILL-0020,required_skill,Required: Project Planning,30.00,2,,2026-01-05T09:17:00+00:00,,true
+RULE-000082,REQ-2026-000017,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T09:17:00+00:00,,true
+RULE-000083,REQ-2026-000017,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T09:17:00+00:00,,true
+RULE-000084,REQ-2026-000017,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:17:00+00:00,,true
+RULE-000085,REQ-2026-000017,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:17:00+00:00,,true
+RULE-000086,REQ-2026-000018,SKILL-0014,required_skill,Required: Product Strategy,30.00,2,,2026-01-05T09:18:00+00:00,,true
+RULE-000087,REQ-2026-000018,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:18:00+00:00,,true
+RULE-000088,REQ-2026-000018,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T09:18:00+00:00,,true
+RULE-000089,REQ-2026-000018,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:18:00+00:00,,true
+RULE-000090,REQ-2026-000018,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:18:00+00:00,,true
+RULE-000091,REQ-2026-000019,SKILL-0002,required_skill,Required: SQL,30.00,2,,2026-01-05T09:19:00+00:00,,true
+RULE-000092,REQ-2026-000019,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:19:00+00:00,,true
+RULE-000093,REQ-2026-000019,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T09:19:00+00:00,,true
+RULE-000094,REQ-2026-000019,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:19:00+00:00,,true
+RULE-000095,REQ-2026-000019,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:19:00+00:00,,true
+RULE-000096,REQ-2026-000020,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T09:20:00+00:00,,true
+RULE-000097,REQ-2026-000020,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T09:20:00+00:00,,true
+RULE-000098,REQ-2026-000020,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:20:00+00:00,,true
+RULE-000099,REQ-2026-000020,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:20:00+00:00,,true
+RULE-000100,REQ-2026-000020,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:20:00+00:00,,true
+RULE-000101,REQ-2026-000021,SKILL-0003,required_skill,Required: PostgreSQL,30.00,2,,2026-01-05T09:21:00+00:00,,true
+RULE-000102,REQ-2026-000021,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T09:21:00+00:00,,true
+RULE-000103,REQ-2026-000021,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:21:00+00:00,,true
+RULE-000104,REQ-2026-000021,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:21:00+00:00,,true
+RULE-000105,REQ-2026-000021,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:21:00+00:00,,true
+RULE-000106,REQ-2026-000022,SKILL-0010,required_skill,Required: TypeScript,30.00,2,,2026-01-05T09:22:00+00:00,,true
+RULE-000107,REQ-2026-000022,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:22:00+00:00,,true
+RULE-000108,REQ-2026-000022,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T09:22:00+00:00,,true
+RULE-000109,REQ-2026-000022,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:22:00+00:00,,true
+RULE-000110,REQ-2026-000022,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:22:00+00:00,,true
+RULE-000111,REQ-2026-000023,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T09:23:00+00:00,,true
+RULE-000112,REQ-2026-000023,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:23:00+00:00,,true
+RULE-000113,REQ-2026-000023,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T09:23:00+00:00,,true
+RULE-000114,REQ-2026-000023,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:23:00+00:00,,true
+RULE-000115,REQ-2026-000023,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:23:00+00:00,,true
+RULE-000116,REQ-2026-000024,SKILL-0013,required_skill,Required: Product Analytics,30.00,2,,2026-01-05T09:24:00+00:00,,true
+RULE-000117,REQ-2026-000024,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T09:24:00+00:00,,true
+RULE-000118,REQ-2026-000024,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:24:00+00:00,,true
+RULE-000119,REQ-2026-000024,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:24:00+00:00,,true
+RULE-000120,REQ-2026-000024,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:24:00+00:00,,true
+RULE-000121,REQ-2026-000025,SKILL-0016,required_skill,Required: Interaction Design,30.00,2,,2026-01-05T09:25:00+00:00,,true
+RULE-000122,REQ-2026-000025,SKILL-0021,weighted_skill,Weighted: Process Improvement,25.00,2,,2026-01-05T09:25:00+00:00,,true
+RULE-000123,REQ-2026-000025,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T09:25:00+00:00,,true
+RULE-000124,REQ-2026-000025,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:25:00+00:00,,true
+RULE-000125,REQ-2026-000025,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:25:00+00:00,,true
+RULE-000126,REQ-2026-000026,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T09:26:00+00:00,,true
+RULE-000127,REQ-2026-000026,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T09:26:00+00:00,,true
+RULE-000128,REQ-2026-000026,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:26:00+00:00,,true
+RULE-000129,REQ-2026-000026,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:26:00+00:00,,true
+RULE-000130,REQ-2026-000026,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:26:00+00:00,,true
+RULE-000131,REQ-2026-000027,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T09:27:00+00:00,,true
+RULE-000132,REQ-2026-000027,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:27:00+00:00,,true
+RULE-000133,REQ-2026-000027,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:27:00+00:00,,true
+RULE-000134,REQ-2026-000027,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:27:00+00:00,,true
+RULE-000135,REQ-2026-000027,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:27:00+00:00,,true
+RULE-000136,REQ-2026-000028,SKILL-0013,required_skill,Required: Product Analytics,30.00,2,,2026-01-05T09:28:00+00:00,,true
+RULE-000137,REQ-2026-000028,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T09:28:00+00:00,,true
+RULE-000138,REQ-2026-000028,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:28:00+00:00,,true
+RULE-000139,REQ-2026-000028,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:28:00+00:00,,true
+RULE-000140,REQ-2026-000028,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:28:00+00:00,,true
+RULE-000141,REQ-2026-000029,SKILL-0016,required_skill,Required: Interaction Design,30.00,2,,2026-01-05T09:29:00+00:00,,true
+RULE-000142,REQ-2026-000029,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:29:00+00:00,,true
+RULE-000143,REQ-2026-000029,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T09:29:00+00:00,,true
+RULE-000144,REQ-2026-000029,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:29:00+00:00,,true
+RULE-000145,REQ-2026-000029,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:29:00+00:00,,true
+RULE-000146,REQ-2026-000030,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T09:30:00+00:00,,true
+RULE-000147,REQ-2026-000030,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T09:30:00+00:00,,true
+RULE-000148,REQ-2026-000030,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T09:30:00+00:00,,true
+RULE-000149,REQ-2026-000030,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:30:00+00:00,,true
+RULE-000150,REQ-2026-000030,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:30:00+00:00,,true
+RULE-000151,REQ-2026-000031,SKILL-0010,required_skill,Required: TypeScript,30.00,2,,2026-01-05T09:31:00+00:00,,true
+RULE-000152,REQ-2026-000031,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:31:00+00:00,,true
+RULE-000153,REQ-2026-000031,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:31:00+00:00,,true
+RULE-000154,REQ-2026-000031,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:31:00+00:00,,true
+RULE-000155,REQ-2026-000031,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:31:00+00:00,,true
+RULE-000156,REQ-2026-000032,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T09:32:00+00:00,,true
+RULE-000157,REQ-2026-000032,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:32:00+00:00,,true
+RULE-000158,REQ-2026-000032,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T09:32:00+00:00,,true
+RULE-000159,REQ-2026-000032,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:32:00+00:00,,true
+RULE-000160,REQ-2026-000032,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:32:00+00:00,,true
+RULE-000161,REQ-2026-000033,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T09:33:00+00:00,,true
+RULE-000162,REQ-2026-000033,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:33:00+00:00,,true
+RULE-000163,REQ-2026-000033,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T09:33:00+00:00,,true
+RULE-000164,REQ-2026-000033,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:33:00+00:00,,true
+RULE-000165,REQ-2026-000033,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:33:00+00:00,,true
+RULE-000166,REQ-2026-000034,SKILL-0015,required_skill,Required: UX Research,30.00,2,,2026-01-05T09:34:00+00:00,,true
+RULE-000167,REQ-2026-000034,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T09:34:00+00:00,,true
+RULE-000168,REQ-2026-000034,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:34:00+00:00,,true
+RULE-000169,REQ-2026-000034,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:34:00+00:00,,true
+RULE-000170,REQ-2026-000034,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:34:00+00:00,,true
+RULE-000171,REQ-2026-000035,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T09:35:00+00:00,,true
+RULE-000172,REQ-2026-000035,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T09:35:00+00:00,,true
+RULE-000173,REQ-2026-000035,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:35:00+00:00,,true
+RULE-000174,REQ-2026-000035,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:35:00+00:00,,true
+RULE-000175,REQ-2026-000035,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:35:00+00:00,,true
+RULE-000176,REQ-2026-000036,SKILL-0019,required_skill,Required: Incident Response,30.00,2,,2026-01-05T09:36:00+00:00,,true
+RULE-000177,REQ-2026-000036,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:36:00+00:00,,true
+RULE-000178,REQ-2026-000036,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:36:00+00:00,,true
+RULE-000179,REQ-2026-000036,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:36:00+00:00,,true
+RULE-000180,REQ-2026-000036,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:36:00+00:00,,true
+RULE-000181,REQ-2026-000037,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T09:37:00+00:00,,true
+RULE-000182,REQ-2026-000037,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T09:37:00+00:00,,true
+RULE-000183,REQ-2026-000037,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T09:37:00+00:00,,true
+RULE-000184,REQ-2026-000037,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:37:00+00:00,,true
+RULE-000185,REQ-2026-000037,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:37:00+00:00,,true
+RULE-000186,REQ-2026-000038,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T09:38:00+00:00,,true
+RULE-000187,REQ-2026-000038,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T09:38:00+00:00,,true
+RULE-000188,REQ-2026-000038,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T09:38:00+00:00,,true
+RULE-000189,REQ-2026-000038,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:38:00+00:00,,true
+RULE-000190,REQ-2026-000038,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:38:00+00:00,,true
+RULE-000191,REQ-2026-000039,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T09:39:00+00:00,,true
+RULE-000192,REQ-2026-000039,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:39:00+00:00,,true
+RULE-000193,REQ-2026-000039,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:39:00+00:00,,true
+RULE-000194,REQ-2026-000039,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:39:00+00:00,,true
+RULE-000195,REQ-2026-000039,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:39:00+00:00,,true
+RULE-000196,REQ-2026-000040,SKILL-0011,required_skill,Required: API Design,30.00,2,,2026-01-05T09:40:00+00:00,,true
+RULE-000197,REQ-2026-000040,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:40:00+00:00,,true
+RULE-000198,REQ-2026-000040,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T09:40:00+00:00,,true
+RULE-000199,REQ-2026-000040,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:40:00+00:00,,true
+RULE-000200,REQ-2026-000040,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:40:00+00:00,,true
+RULE-000201,REQ-2026-000041,SKILL-0023,required_skill,Required: Financial Modeling,30.00,2,,2026-01-05T09:41:00+00:00,,true
+RULE-000202,REQ-2026-000041,SKILL-0011,weighted_skill,Weighted: API Design,25.00,2,,2026-01-05T09:41:00+00:00,,true
+RULE-000203,REQ-2026-000041,SKILL-0021,weighted_skill,Weighted: Process Improvement,25.00,2,,2026-01-05T09:41:00+00:00,,true
+RULE-000204,REQ-2026-000041,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:41:00+00:00,,true
+RULE-000205,REQ-2026-000041,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:41:00+00:00,,true
+RULE-000206,REQ-2026-000042,SKILL-0020,required_skill,Required: Project Planning,30.00,2,,2026-01-05T09:42:00+00:00,,true
+RULE-000207,REQ-2026-000042,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T09:42:00+00:00,,true
+RULE-000208,REQ-2026-000042,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T09:42:00+00:00,,true
+RULE-000209,REQ-2026-000042,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:42:00+00:00,,true
+RULE-000210,REQ-2026-000042,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:42:00+00:00,,true
+RULE-000211,REQ-2026-000043,SKILL-0022,required_skill,Required: Technical Writing,30.00,2,,2026-01-05T09:43:00+00:00,,true
+RULE-000212,REQ-2026-000043,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:43:00+00:00,,true
+RULE-000213,REQ-2026-000043,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:43:00+00:00,,true
+RULE-000214,REQ-2026-000043,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:43:00+00:00,,true
+RULE-000215,REQ-2026-000043,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:43:00+00:00,,true
+RULE-000216,REQ-2026-000044,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T09:44:00+00:00,,true
+RULE-000217,REQ-2026-000044,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T09:44:00+00:00,,true
+RULE-000218,REQ-2026-000044,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T09:44:00+00:00,,true
+RULE-000219,REQ-2026-000044,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:44:00+00:00,,true
+RULE-000220,REQ-2026-000044,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:44:00+00:00,,true
+RULE-000221,REQ-2026-000045,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T09:45:00+00:00,,true
+RULE-000222,REQ-2026-000045,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:45:00+00:00,,true
+RULE-000223,REQ-2026-000045,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T09:45:00+00:00,,true
+RULE-000224,REQ-2026-000045,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:45:00+00:00,,true
+RULE-000225,REQ-2026-000045,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:45:00+00:00,,true
+RULE-000226,REQ-2026-000046,SKILL-0011,required_skill,Required: API Design,30.00,2,,2026-01-05T09:46:00+00:00,,true
+RULE-000227,REQ-2026-000046,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:46:00+00:00,,true
+RULE-000228,REQ-2026-000046,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T09:46:00+00:00,,true
+RULE-000229,REQ-2026-000046,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:46:00+00:00,,true
+RULE-000230,REQ-2026-000046,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:46:00+00:00,,true
+RULE-000231,REQ-2026-000047,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T09:47:00+00:00,,true
+RULE-000232,REQ-2026-000047,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:47:00+00:00,,true
+RULE-000233,REQ-2026-000047,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T09:47:00+00:00,,true
+RULE-000234,REQ-2026-000047,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:47:00+00:00,,true
+RULE-000235,REQ-2026-000047,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:47:00+00:00,,true
+RULE-000236,REQ-2026-000048,SKILL-0023,required_skill,Required: Financial Modeling,30.00,2,,2026-01-05T09:48:00+00:00,,true
+RULE-000237,REQ-2026-000048,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:48:00+00:00,,true
+RULE-000238,REQ-2026-000048,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T09:48:00+00:00,,true
+RULE-000239,REQ-2026-000048,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:48:00+00:00,,true
+RULE-000240,REQ-2026-000048,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:48:00+00:00,,true
+RULE-000241,REQ-2026-000049,SKILL-0006,required_skill,Required: Cloud Architecture,30.00,2,,2026-01-05T09:49:00+00:00,,true
+RULE-000242,REQ-2026-000049,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:49:00+00:00,,true
+RULE-000243,REQ-2026-000049,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:49:00+00:00,,true
+RULE-000244,REQ-2026-000049,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:49:00+00:00,,true
+RULE-000245,REQ-2026-000049,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:49:00+00:00,,true
+RULE-000246,REQ-2026-000050,SKILL-0005,required_skill,Required: Machine Learning,30.00,2,,2026-01-05T09:50:00+00:00,,true
+RULE-000247,REQ-2026-000050,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:50:00+00:00,,true
+RULE-000248,REQ-2026-000050,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:50:00+00:00,,true
+RULE-000249,REQ-2026-000050,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:50:00+00:00,,true
+RULE-000250,REQ-2026-000050,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:50:00+00:00,,true
+RULE-000251,REQ-2026-000051,SKILL-0010,required_skill,Required: TypeScript,30.00,2,,2026-01-05T09:51:00+00:00,,true
+RULE-000252,REQ-2026-000051,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:51:00+00:00,,true
+RULE-000253,REQ-2026-000051,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:51:00+00:00,,true
+RULE-000254,REQ-2026-000051,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:51:00+00:00,,true
+RULE-000255,REQ-2026-000051,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:51:00+00:00,,true
+RULE-000256,REQ-2026-000052,SKILL-0021,required_skill,Required: Process Improvement,30.00,2,,2026-01-05T09:52:00+00:00,,true
+RULE-000257,REQ-2026-000052,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T09:52:00+00:00,,true
+RULE-000258,REQ-2026-000052,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T09:52:00+00:00,,true
+RULE-000259,REQ-2026-000052,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:52:00+00:00,,true
+RULE-000260,REQ-2026-000052,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:52:00+00:00,,true
+RULE-000261,REQ-2026-000053,SKILL-0021,required_skill,Required: Process Improvement,30.00,2,,2026-01-05T09:53:00+00:00,,true
+RULE-000262,REQ-2026-000053,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T09:53:00+00:00,,true
+RULE-000263,REQ-2026-000053,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T09:53:00+00:00,,true
+RULE-000264,REQ-2026-000053,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:53:00+00:00,,true
+RULE-000265,REQ-2026-000053,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:53:00+00:00,,true
+RULE-000266,REQ-2026-000054,SKILL-0019,required_skill,Required: Incident Response,30.00,2,,2026-01-05T09:54:00+00:00,,true
+RULE-000267,REQ-2026-000054,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T09:54:00+00:00,,true
+RULE-000268,REQ-2026-000054,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:54:00+00:00,,true
+RULE-000269,REQ-2026-000054,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:54:00+00:00,,true
+RULE-000270,REQ-2026-000054,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:54:00+00:00,,true
+RULE-000271,REQ-2026-000055,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T09:55:00+00:00,,true
+RULE-000272,REQ-2026-000055,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T09:55:00+00:00,,true
+RULE-000273,REQ-2026-000055,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T09:55:00+00:00,,true
+RULE-000274,REQ-2026-000055,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:55:00+00:00,,true
+RULE-000275,REQ-2026-000055,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:55:00+00:00,,true
+RULE-000276,REQ-2026-000056,SKILL-0023,required_skill,Required: Financial Modeling,30.00,2,,2026-01-05T09:56:00+00:00,,true
+RULE-000277,REQ-2026-000056,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T09:56:00+00:00,,true
+RULE-000278,REQ-2026-000056,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:56:00+00:00,,true
+RULE-000279,REQ-2026-000056,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:56:00+00:00,,true
+RULE-000280,REQ-2026-000056,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:56:00+00:00,,true
+RULE-000281,REQ-2026-000057,SKILL-0016,required_skill,Required: Interaction Design,30.00,2,,2026-01-05T09:57:00+00:00,,true
+RULE-000282,REQ-2026-000057,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T09:57:00+00:00,,true
+RULE-000283,REQ-2026-000057,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T09:57:00+00:00,,true
+RULE-000284,REQ-2026-000057,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:57:00+00:00,,true
+RULE-000285,REQ-2026-000057,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:57:00+00:00,,true
+RULE-000286,REQ-2026-000058,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T09:58:00+00:00,,true
+RULE-000287,REQ-2026-000058,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T09:58:00+00:00,,true
+RULE-000288,REQ-2026-000058,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T09:58:00+00:00,,true
+RULE-000289,REQ-2026-000058,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:58:00+00:00,,true
+RULE-000290,REQ-2026-000058,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:58:00+00:00,,true
+RULE-000291,REQ-2026-000059,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T09:59:00+00:00,,true
+RULE-000292,REQ-2026-000059,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T09:59:00+00:00,,true
+RULE-000293,REQ-2026-000059,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T09:59:00+00:00,,true
+RULE-000294,REQ-2026-000059,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T09:59:00+00:00,,true
+RULE-000295,REQ-2026-000059,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T09:59:00+00:00,,true
+RULE-000296,REQ-2026-000060,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T10:00:00+00:00,,true
+RULE-000297,REQ-2026-000060,SKILL-0020,weighted_skill,Weighted: Project Planning,25.00,2,,2026-01-05T10:00:00+00:00,,true
+RULE-000298,REQ-2026-000060,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T10:00:00+00:00,,true
+RULE-000299,REQ-2026-000060,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:00:00+00:00,,true
+RULE-000300,REQ-2026-000060,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:00:00+00:00,,true
+RULE-000301,REQ-2026-000061,SKILL-0017,required_skill,Required: Threat Modeling,30.00,2,,2026-01-05T10:01:00+00:00,,true
+RULE-000302,REQ-2026-000061,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T10:01:00+00:00,,true
+RULE-000303,REQ-2026-000061,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T10:01:00+00:00,,true
+RULE-000304,REQ-2026-000061,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:01:00+00:00,,true
+RULE-000305,REQ-2026-000061,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:01:00+00:00,,true
+RULE-000306,REQ-2026-000062,SKILL-0003,required_skill,Required: PostgreSQL,30.00,2,,2026-01-05T10:02:00+00:00,,true
+RULE-000307,REQ-2026-000062,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T10:02:00+00:00,,true
+RULE-000308,REQ-2026-000062,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:02:00+00:00,,true
+RULE-000309,REQ-2026-000062,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:02:00+00:00,,true
+RULE-000310,REQ-2026-000062,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:02:00+00:00,,true
+RULE-000311,REQ-2026-000063,SKILL-0011,required_skill,Required: API Design,30.00,2,,2026-01-05T10:03:00+00:00,,true
+RULE-000312,REQ-2026-000063,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T10:03:00+00:00,,true
+RULE-000313,REQ-2026-000063,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T10:03:00+00:00,,true
+RULE-000314,REQ-2026-000063,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:03:00+00:00,,true
+RULE-000315,REQ-2026-000063,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:03:00+00:00,,true
+RULE-000316,REQ-2026-000064,SKILL-0020,required_skill,Required: Project Planning,30.00,2,,2026-01-05T10:04:00+00:00,,true
+RULE-000317,REQ-2026-000064,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T10:04:00+00:00,,true
+RULE-000318,REQ-2026-000064,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T10:04:00+00:00,,true
+RULE-000319,REQ-2026-000064,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:04:00+00:00,,true
+RULE-000320,REQ-2026-000064,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:04:00+00:00,,true
+RULE-000321,REQ-2026-000065,SKILL-0001,required_skill,Required: Python,30.00,2,,2026-01-05T10:05:00+00:00,,true
+RULE-000322,REQ-2026-000065,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T10:05:00+00:00,,true
+RULE-000323,REQ-2026-000065,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T10:05:00+00:00,,true
+RULE-000324,REQ-2026-000065,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:05:00+00:00,,true
+RULE-000325,REQ-2026-000065,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:05:00+00:00,,true
+RULE-000326,REQ-2026-000066,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T10:06:00+00:00,,true
+RULE-000327,REQ-2026-000066,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T10:06:00+00:00,,true
+RULE-000328,REQ-2026-000066,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:06:00+00:00,,true
+RULE-000329,REQ-2026-000066,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:06:00+00:00,,true
+RULE-000330,REQ-2026-000066,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:06:00+00:00,,true
+RULE-000331,REQ-2026-000067,SKILL-0020,required_skill,Required: Project Planning,30.00,2,,2026-01-05T10:07:00+00:00,,true
+RULE-000332,REQ-2026-000067,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T10:07:00+00:00,,true
+RULE-000333,REQ-2026-000067,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T10:07:00+00:00,,true
+RULE-000334,REQ-2026-000067,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:07:00+00:00,,true
+RULE-000335,REQ-2026-000067,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:07:00+00:00,,true
+RULE-000336,REQ-2026-000068,SKILL-0003,required_skill,Required: PostgreSQL,30.00,2,,2026-01-05T10:08:00+00:00,,true
+RULE-000337,REQ-2026-000068,SKILL-0020,weighted_skill,Weighted: Project Planning,25.00,2,,2026-01-05T10:08:00+00:00,,true
+RULE-000338,REQ-2026-000068,SKILL-0001,weighted_skill,Weighted: Python,25.00,2,,2026-01-05T10:08:00+00:00,,true
+RULE-000339,REQ-2026-000068,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:08:00+00:00,,true
+RULE-000340,REQ-2026-000068,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:08:00+00:00,,true
+RULE-000341,REQ-2026-000069,SKILL-0005,required_skill,Required: Machine Learning,30.00,2,,2026-01-05T10:09:00+00:00,,true
+RULE-000342,REQ-2026-000069,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T10:09:00+00:00,,true
+RULE-000343,REQ-2026-000069,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T10:09:00+00:00,,true
+RULE-000344,REQ-2026-000069,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:09:00+00:00,,true
+RULE-000345,REQ-2026-000069,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:09:00+00:00,,true
+RULE-000346,REQ-2026-000070,SKILL-0007,required_skill,Required: Kubernetes,30.00,2,,2026-01-05T10:10:00+00:00,,true
+RULE-000347,REQ-2026-000070,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:10:00+00:00,,true
+RULE-000348,REQ-2026-000070,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T10:10:00+00:00,,true
+RULE-000349,REQ-2026-000070,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:10:00+00:00,,true
+RULE-000350,REQ-2026-000070,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:10:00+00:00,,true
+RULE-000351,REQ-2026-000071,SKILL-0004,required_skill,Required: Data Modeling,30.00,2,,2026-01-05T10:11:00+00:00,,true
+RULE-000352,REQ-2026-000071,SKILL-0007,weighted_skill,Weighted: Kubernetes,25.00,2,,2026-01-05T10:11:00+00:00,,true
+RULE-000353,REQ-2026-000071,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T10:11:00+00:00,,true
+RULE-000354,REQ-2026-000071,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:11:00+00:00,,true
+RULE-000355,REQ-2026-000071,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:11:00+00:00,,true
+RULE-000356,REQ-2026-000072,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T10:12:00+00:00,,true
+RULE-000357,REQ-2026-000072,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T10:12:00+00:00,,true
+RULE-000358,REQ-2026-000072,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:12:00+00:00,,true
+RULE-000359,REQ-2026-000072,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:12:00+00:00,,true
+RULE-000360,REQ-2026-000072,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:12:00+00:00,,true
+RULE-000361,REQ-2026-000073,SKILL-0014,required_skill,Required: Product Strategy,30.00,2,,2026-01-05T10:13:00+00:00,,true
+RULE-000362,REQ-2026-000073,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T10:13:00+00:00,,true
+RULE-000363,REQ-2026-000073,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T10:13:00+00:00,,true
+RULE-000364,REQ-2026-000073,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:13:00+00:00,,true
+RULE-000365,REQ-2026-000073,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:13:00+00:00,,true
+RULE-000366,REQ-2026-000074,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T10:14:00+00:00,,true
+RULE-000367,REQ-2026-000074,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:14:00+00:00,,true
+RULE-000368,REQ-2026-000074,SKILL-0011,weighted_skill,Weighted: API Design,25.00,2,,2026-01-05T10:14:00+00:00,,true
+RULE-000369,REQ-2026-000074,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:14:00+00:00,,true
+RULE-000370,REQ-2026-000074,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:14:00+00:00,,true
+RULE-000371,REQ-2026-000075,SKILL-0020,required_skill,Required: Project Planning,30.00,2,,2026-01-05T10:15:00+00:00,,true
+RULE-000372,REQ-2026-000075,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T10:15:00+00:00,,true
+RULE-000373,REQ-2026-000075,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T10:15:00+00:00,,true
+RULE-000374,REQ-2026-000075,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:15:00+00:00,,true
+RULE-000375,REQ-2026-000075,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:15:00+00:00,,true
+RULE-000376,REQ-2026-000076,SKILL-0002,required_skill,Required: SQL,30.00,2,,2026-01-05T10:16:00+00:00,,true
+RULE-000377,REQ-2026-000076,SKILL-0004,weighted_skill,Weighted: Data Modeling,25.00,2,,2026-01-05T10:16:00+00:00,,true
+RULE-000378,REQ-2026-000076,SKILL-0021,weighted_skill,Weighted: Process Improvement,25.00,2,,2026-01-05T10:16:00+00:00,,true
+RULE-000379,REQ-2026-000076,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:16:00+00:00,,true
+RULE-000380,REQ-2026-000076,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:16:00+00:00,,true
+RULE-000381,REQ-2026-000077,SKILL-0021,required_skill,Required: Process Improvement,30.00,2,,2026-01-05T10:17:00+00:00,,true
+RULE-000382,REQ-2026-000077,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T10:17:00+00:00,,true
+RULE-000383,REQ-2026-000077,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T10:17:00+00:00,,true
+RULE-000384,REQ-2026-000077,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:17:00+00:00,,true
+RULE-000385,REQ-2026-000077,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:17:00+00:00,,true
+RULE-000386,REQ-2026-000078,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T10:18:00+00:00,,true
+RULE-000387,REQ-2026-000078,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T10:18:00+00:00,,true
+RULE-000388,REQ-2026-000078,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T10:18:00+00:00,,true
+RULE-000389,REQ-2026-000078,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:18:00+00:00,,true
+RULE-000390,REQ-2026-000078,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:18:00+00:00,,true
+RULE-000391,REQ-2026-000079,SKILL-0002,required_skill,Required: SQL,30.00,2,,2026-01-05T10:19:00+00:00,,true
+RULE-000392,REQ-2026-000079,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T10:19:00+00:00,,true
+RULE-000393,REQ-2026-000079,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T10:19:00+00:00,,true
+RULE-000394,REQ-2026-000079,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:19:00+00:00,,true
+RULE-000395,REQ-2026-000079,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:19:00+00:00,,true
+RULE-000396,REQ-2026-000080,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T10:20:00+00:00,,true
+RULE-000397,REQ-2026-000080,SKILL-0016,weighted_skill,Weighted: Interaction Design,25.00,2,,2026-01-05T10:20:00+00:00,,true
+RULE-000398,REQ-2026-000080,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T10:20:00+00:00,,true
+RULE-000399,REQ-2026-000080,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:20:00+00:00,,true
+RULE-000400,REQ-2026-000080,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:20:00+00:00,,true
+RULE-000401,REQ-2026-000081,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T10:21:00+00:00,,true
+RULE-000402,REQ-2026-000081,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:21:00+00:00,,true
+RULE-000403,REQ-2026-000081,SKILL-0011,weighted_skill,Weighted: API Design,25.00,2,,2026-01-05T10:21:00+00:00,,true
+RULE-000404,REQ-2026-000081,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:21:00+00:00,,true
+RULE-000405,REQ-2026-000081,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:21:00+00:00,,true
+RULE-000406,REQ-2026-000082,SKILL-0002,required_skill,Required: SQL,30.00,2,,2026-01-05T10:22:00+00:00,,true
+RULE-000407,REQ-2026-000082,SKILL-0020,weighted_skill,Weighted: Project Planning,25.00,2,,2026-01-05T10:22:00+00:00,,true
+RULE-000408,REQ-2026-000082,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T10:22:00+00:00,,true
+RULE-000409,REQ-2026-000082,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:22:00+00:00,,true
+RULE-000410,REQ-2026-000082,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:22:00+00:00,,true
+RULE-000411,REQ-2026-000083,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T10:23:00+00:00,,true
+RULE-000412,REQ-2026-000083,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T10:23:00+00:00,,true
+RULE-000413,REQ-2026-000083,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T10:23:00+00:00,,true
+RULE-000414,REQ-2026-000083,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:23:00+00:00,,true
+RULE-000415,REQ-2026-000083,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:23:00+00:00,,true
+RULE-000416,REQ-2026-000084,SKILL-0008,required_skill,Required: Distributed Systems,30.00,2,,2026-01-05T10:24:00+00:00,,true
+RULE-000417,REQ-2026-000084,SKILL-0013,weighted_skill,Weighted: Product Analytics,25.00,2,,2026-01-05T10:24:00+00:00,,true
+RULE-000418,REQ-2026-000084,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T10:24:00+00:00,,true
+RULE-000419,REQ-2026-000084,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:24:00+00:00,,true
+RULE-000420,REQ-2026-000084,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:24:00+00:00,,true
+RULE-000421,REQ-2026-000085,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T10:25:00+00:00,,true
+RULE-000422,REQ-2026-000085,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T10:25:00+00:00,,true
+RULE-000423,REQ-2026-000085,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T10:25:00+00:00,,true
+RULE-000424,REQ-2026-000085,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:25:00+00:00,,true
+RULE-000425,REQ-2026-000085,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:25:00+00:00,,true
+RULE-000426,REQ-2026-000086,SKILL-0013,required_skill,Required: Product Analytics,30.00,2,,2026-01-05T10:26:00+00:00,,true
+RULE-000427,REQ-2026-000086,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T10:26:00+00:00,,true
+RULE-000428,REQ-2026-000086,SKILL-0024,weighted_skill,Weighted: Customer Enablement,25.00,2,,2026-01-05T10:26:00+00:00,,true
+RULE-000429,REQ-2026-000086,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:26:00+00:00,,true
+RULE-000430,REQ-2026-000086,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:26:00+00:00,,true
+RULE-000431,REQ-2026-000087,SKILL-0019,required_skill,Required: Incident Response,30.00,2,,2026-01-05T10:27:00+00:00,,true
+RULE-000432,REQ-2026-000087,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T10:27:00+00:00,,true
+RULE-000433,REQ-2026-000087,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T10:27:00+00:00,,true
+RULE-000434,REQ-2026-000087,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:27:00+00:00,,true
+RULE-000435,REQ-2026-000087,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:27:00+00:00,,true
+RULE-000436,REQ-2026-000088,SKILL-0006,required_skill,Required: Cloud Architecture,30.00,2,,2026-01-05T10:28:00+00:00,,true
+RULE-000437,REQ-2026-000088,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T10:28:00+00:00,,true
+RULE-000438,REQ-2026-000088,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T10:28:00+00:00,,true
+RULE-000439,REQ-2026-000088,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:28:00+00:00,,true
+RULE-000440,REQ-2026-000088,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:28:00+00:00,,true
+RULE-000441,REQ-2026-000089,SKILL-0019,required_skill,Required: Incident Response,30.00,2,,2026-01-05T10:29:00+00:00,,true
+RULE-000442,REQ-2026-000089,SKILL-0015,weighted_skill,Weighted: UX Research,25.00,2,,2026-01-05T10:29:00+00:00,,true
+RULE-000443,REQ-2026-000089,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T10:29:00+00:00,,true
+RULE-000444,REQ-2026-000089,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:29:00+00:00,,true
+RULE-000445,REQ-2026-000089,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:29:00+00:00,,true
+RULE-000446,REQ-2026-000090,SKILL-0024,required_skill,Required: Customer Enablement,30.00,2,,2026-01-05T10:30:00+00:00,,true
+RULE-000447,REQ-2026-000090,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T10:30:00+00:00,,true
+RULE-000448,REQ-2026-000090,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T10:30:00+00:00,,true
+RULE-000449,REQ-2026-000090,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:30:00+00:00,,true
+RULE-000450,REQ-2026-000090,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:30:00+00:00,,true
+RULE-000451,REQ-2026-000091,SKILL-0022,required_skill,Required: Technical Writing,30.00,2,,2026-01-05T10:31:00+00:00,,true
+RULE-000452,REQ-2026-000091,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T10:31:00+00:00,,true
+RULE-000453,REQ-2026-000091,SKILL-0010,weighted_skill,Weighted: TypeScript,25.00,2,,2026-01-05T10:31:00+00:00,,true
+RULE-000454,REQ-2026-000091,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:31:00+00:00,,true
+RULE-000455,REQ-2026-000091,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:31:00+00:00,,true
+RULE-000456,REQ-2026-000092,SKILL-0006,required_skill,Required: Cloud Architecture,30.00,2,,2026-01-05T10:32:00+00:00,,true
+RULE-000457,REQ-2026-000092,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T10:32:00+00:00,,true
+RULE-000458,REQ-2026-000092,SKILL-0011,weighted_skill,Weighted: API Design,25.00,2,,2026-01-05T10:32:00+00:00,,true
+RULE-000459,REQ-2026-000092,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:32:00+00:00,,true
+RULE-000460,REQ-2026-000092,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:32:00+00:00,,true
+RULE-000461,REQ-2026-000093,SKILL-0009,required_skill,Required: Java,30.00,2,,2026-01-05T10:33:00+00:00,,true
+RULE-000462,REQ-2026-000093,SKILL-0006,weighted_skill,Weighted: Cloud Architecture,25.00,2,,2026-01-05T10:33:00+00:00,,true
+RULE-000463,REQ-2026-000093,SKILL-0017,weighted_skill,Weighted: Threat Modeling,25.00,2,,2026-01-05T10:33:00+00:00,,true
+RULE-000464,REQ-2026-000093,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:33:00+00:00,,true
+RULE-000465,REQ-2026-000093,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:33:00+00:00,,true
+RULE-000466,REQ-2026-000094,SKILL-0009,required_skill,Required: Java,30.00,2,,2026-01-05T10:34:00+00:00,,true
+RULE-000467,REQ-2026-000094,SKILL-0021,weighted_skill,Weighted: Process Improvement,25.00,2,,2026-01-05T10:34:00+00:00,,true
+RULE-000468,REQ-2026-000094,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T10:34:00+00:00,,true
+RULE-000469,REQ-2026-000094,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:34:00+00:00,,true
+RULE-000470,REQ-2026-000094,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:34:00+00:00,,true
+RULE-000471,REQ-2026-000095,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T10:35:00+00:00,,true
+RULE-000472,REQ-2026-000095,SKILL-0002,weighted_skill,Weighted: SQL,25.00,2,,2026-01-05T10:35:00+00:00,,true
+RULE-000473,REQ-2026-000095,SKILL-0018,weighted_skill,Weighted: Application Security,25.00,2,,2026-01-05T10:35:00+00:00,,true
+RULE-000474,REQ-2026-000095,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:35:00+00:00,,true
+RULE-000475,REQ-2026-000095,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:35:00+00:00,,true
+RULE-000476,REQ-2026-000096,SKILL-0018,required_skill,Required: Application Security,30.00,2,,2026-01-05T10:36:00+00:00,,true
+RULE-000477,REQ-2026-000096,SKILL-0009,weighted_skill,Weighted: Java,25.00,2,,2026-01-05T10:36:00+00:00,,true
+RULE-000478,REQ-2026-000096,SKILL-0008,weighted_skill,Weighted: Distributed Systems,25.00,2,,2026-01-05T10:36:00+00:00,,true
+RULE-000479,REQ-2026-000096,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:36:00+00:00,,true
+RULE-000480,REQ-2026-000096,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:36:00+00:00,,true
+RULE-000481,REQ-2026-000097,SKILL-0010,required_skill,Required: TypeScript,30.00,2,,2026-01-05T10:37:00+00:00,,true
+RULE-000482,REQ-2026-000097,SKILL-0005,weighted_skill,Weighted: Machine Learning,25.00,2,,2026-01-05T10:37:00+00:00,,true
+RULE-000483,REQ-2026-000097,SKILL-0012,weighted_skill,Weighted: Testing,25.00,2,,2026-01-05T10:37:00+00:00,,true
+RULE-000484,REQ-2026-000097,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:37:00+00:00,,true
+RULE-000485,REQ-2026-000097,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:37:00+00:00,,true
+RULE-000486,REQ-2026-000098,SKILL-0012,required_skill,Required: Testing,30.00,2,,2026-01-05T10:38:00+00:00,,true
+RULE-000487,REQ-2026-000098,SKILL-0022,weighted_skill,Weighted: Technical Writing,25.00,2,,2026-01-05T10:38:00+00:00,,true
+RULE-000488,REQ-2026-000098,SKILL-0003,weighted_skill,Weighted: PostgreSQL,25.00,2,,2026-01-05T10:38:00+00:00,,true
+RULE-000489,REQ-2026-000098,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:38:00+00:00,,true
+RULE-000490,REQ-2026-000098,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:38:00+00:00,,true
+RULE-000491,REQ-2026-000099,SKILL-0005,required_skill,Required: Machine Learning,30.00,2,,2026-01-05T10:39:00+00:00,,true
+RULE-000492,REQ-2026-000099,SKILL-0023,weighted_skill,Weighted: Financial Modeling,25.00,2,,2026-01-05T10:39:00+00:00,,true
+RULE-000493,REQ-2026-000099,SKILL-0020,weighted_skill,Weighted: Project Planning,25.00,2,,2026-01-05T10:39:00+00:00,,true
+RULE-000494,REQ-2026-000099,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:39:00+00:00,,true
+RULE-000495,REQ-2026-000099,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:39:00+00:00,,true
+RULE-000496,REQ-2026-000100,SKILL-0005,required_skill,Required: Machine Learning,30.00,2,,2026-01-05T10:40:00+00:00,,true
+RULE-000497,REQ-2026-000100,SKILL-0014,weighted_skill,Weighted: Product Strategy,25.00,2,,2026-01-05T10:40:00+00:00,,true
+RULE-000498,REQ-2026-000100,SKILL-0019,weighted_skill,Weighted: Incident Response,25.00,2,,2026-01-05T10:40:00+00:00,,true
+RULE-000499,REQ-2026-000100,,min_experience,Minimum relevant experience,20.00,,2.00,2026-01-05T10:40:00+00:00,,true
+RULE-000500,REQ-2026-000100,,pass_threshold,Weighted screening pass threshold,0.00,,55.00,2026-01-05T10:40:00+00:00,,true
